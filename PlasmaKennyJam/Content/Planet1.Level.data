@@ -1,0 +1,737 @@
+[Version:1]
+Level 
+{
+	Cog [ContextId:1]
+	{
+		var Name = "LevelSettings"
+		GravityEffect 
+		{
+			var Active = true
+			var WakeUpOnChange = false
+			var DebugDrawEffect = false
+			var LocalSpaceDirection = true
+			var Strength = 10
+			var Direction = Real3{0, -1, 0}
+		}
+		DragEffect 
+		{
+			var Active = true
+			var WakeUpOnChange = false
+			var DebugDrawEffect = false
+			var LinearDamping = 0.200000003
+			var AngularDamping = 0.100000001
+			var LinearDrag = 0
+			var AngularDrag = 0
+		}
+		GridDraw 
+		{
+			var Active = true
+			var HalfCellOffset = false
+			var CellSize = 1
+			var Axis = AxisDirection.Y
+			var Lines = 100
+			var DrawAxisOrigins = true
+			var AlwaysDrawInEditor = true
+			var DrawInGame = false
+			var GridColor = Real4{0.5, 0.5, 0.5, 0.400000006}
+			var GridHighlight = Real4{0, 0, 0, 0.400000006}
+			var HighlightInterval = 10
+			var FollowEditorCamera = false
+		}
+	}
+	Cog [ContextId:2]
+	{
+		var Name = "Renderer"
+		DeferredRenderer 
+		{
+			var OverrideResolution = false
+			var CustomResolution = Integer2{1920, 1080}
+			var Skybox = "5822dec85e380cf1:SimpleSkybox"
+			var ClearColor = Real4{0, 0, 0, 1}
+			var DirectLighting = true
+			var IndirectLighting = true
+			var RenderDecals = true
+			var IndirectIntensity = 1
+			var MaxIntensity = 10
+			var UseACES = true
+			var ShoulderStrength = 2.50999999
+			var LinearStrength = 0.0299999993
+			var LinearAngle = 2.43000007
+			var ToeStrength = 0.589999974
+			var WhitePoint = 6
+			var DepthRangeOIT = 200
+			var GeometryDebug = GeometryValue.None
+			var EditorDebugDraw = true
+			var GameDebugDraw = true
+			var RenderDiffuse = true
+			var RenderSpecular = true
+			var RenderSkybox = true
+			var DirectionalLight = CogPath
+			{
+				var Path = ":/DirectionalLightShadows"
+				var ErrorOnResolveToNull = false
+				var ErrorOnPathCantCompute = false
+				var ErrorOnDirectLinkFail = false
+				var UpdateCogOnPathChange = true
+				var UpdatePathOnCogChange = true
+				var UpdateCogOnInitialize = true
+				var ResolvedNullErrorOccurred = false
+				var Cog = 3
+				var PathPreference0 = CogPathPreference.CogRelative
+				var PathPreference1 = CogPathPreference.SpaceRelative
+				var PathPreference2 = CogPathPreference.Absolute
+			}
+		}
+		PostProcessSSAO 
+		{
+			var Active = true
+			var Radius = 1
+			var Intensity = 1
+			var BlurDepthThreshold = 0.100000001
+			var DebugBuffer = false
+		}
+		PostProcessBloom 
+		{
+			var Active = true
+			var Intensity = 0.100000001
+			var Threshold = 1
+			var LensDirt = "5826e695131ca33a:White"
+			var LensDirtIntensity = 0.200000003
+			var LensDirtThreshold = 0.100000001
+			var DebugBuffer = false
+			var Bloom1 = true
+			var Bloom2 = true
+			var Bloom3 = true
+			var Bloom4 = true
+			var Bloom5 = true
+			var Bloom6 = true
+			var Bloom7 = true
+			var Bloom8 = true
+		}
+		PostProcessFog 
+		{
+			var Active = true
+			var FogStart = 1.60928535
+			var FogDensity = 4.75001192
+			var FogColor = Real4{0.356999993, 0.570840001, 0.600000024, 1}
+			var Debug = false
+		}
+		PostProcessDOF 
+		{
+			var Enable = true
+			var BlurAmmount = 22
+			var BokehSize = 8
+			var BlurBokeh = BokehBlurStrength.Low
+			var Debug = false
+			var DebugType = DebugType.COC
+		}
+	}
+	Cog [ContextId:4]
+	{
+		var Name = "EditorCamera"
+		Transform 
+		{
+			var Translation = Real3{55.4813194, 4.82717705, -2.60505819}
+			var Scale = Real3{1, 1, 1}
+			var Rotation = Quaternion{-0.263284594, 0.654813647, 0.261906445, 0.658259273}
+		}
+		CameraViewport 
+		{
+			var RenderInEditor = true
+			var RenderInGame = false
+			var RenderOrder = 0
+			var CameraPath = CogPath
+			{
+				var Path = "."
+				var ErrorOnResolveToNull = false
+				var ErrorOnPathCantCompute = false
+				var ErrorOnDirectLinkFail = false
+				var UpdateCogOnPathChange = true
+				var UpdatePathOnCogChange = true
+				var UpdateCogOnInitialize = true
+				var ResolvedNullErrorOccurred = false
+				var Cog = 4
+				var PathPreference0 = CogPathPreference.CogRelative
+				var PathPreference1 = CogPathPreference.SpaceRelative
+				var PathPreference2 = CogPathPreference.Absolute
+			}
+			var RendererPath = CogPath
+			{
+				var Path = ":/Renderer"
+				var ErrorOnResolveToNull = false
+				var ErrorOnPathCantCompute = false
+				var ErrorOnDirectLinkFail = false
+				var UpdateCogOnPathChange = true
+				var UpdatePathOnCogChange = true
+				var UpdateCogOnInitialize = true
+				var ResolvedNullErrorOccurred = false
+				var Cog = 2
+				var PathPreference0 = CogPathPreference.CogRelative
+				var PathPreference1 = CogPathPreference.SpaceRelative
+				var PathPreference2 = CogPathPreference.Absolute
+			}
+			var ResolutionOrAspect = Integer2{1920, 1080}
+			var RenderToViewport = true
+			var ForwardViewportEvents = false
+			var ViewportScaling = ViewportScaling.Fill
+			var MarginColor = Real4{0, 0, 0, 1}
+			var NormalizedSize = Real2{1, 1}
+			var NormalizedOffset = Real2{0, 0}
+		}
+		Camera 
+		{
+			var NearPlane = 0.100000001
+			var FarPlane = 100
+			var PerspectiveMode = PerspectiveMode.Perspective
+			var FieldOfView = 67
+			var Size = 20
+			var Aperture = 5.5999999
+			var FocalDistance = 6.74932194
+			var ShutterSpeed = 580
+			var ISO = 100
+		}
+		EditorCameraController 
+		{
+			var ControlMode = ControlMode.Orbit
+			var Previous3DMode = ControlMode.Orbit
+			var LookDistance = 0.450491965
+			var VerticalAngle = 0.760962665
+			var HorizontalAngle = -1.56554818
+			var LookTarget = Real3{55.1550903, 4.51650906, -2.60677028}
+			var MoveSensitivity = 1
+			var InvertGamepadPitch = false
+			var GamepadMoveSensitivity = 0.100000001
+			var GamepadRotateSensitivity = 10
+		}
+	}
+	Cog [ContextId:5]
+	{
+		var Name = "CameraContainer"
+		Transform 
+		{
+			var Translation = Real3{55.4813156, 4.82717705, -2.60505843}
+			var Scale = Real3{0.99999994, 0.999999881, 0.999999881}
+			var Rotation = Quaternion{2.21189129e-08, -4.30736868e-09, -4.47034907e-08, 1}
+		}
+		Orientation 
+		{
+			var GlobalUp = Real3{0, 1, 0}
+			var LocalOrientationBasis = Quaternion{2.10734239e-08, 0.707106709, 2.10734239e-08, 0.707106769}
+			var DefaultBases = OrientationBases.Custom
+		}
+		Hierarchy 
+		{
+			Cog [Id:0x62d08a7eb40cbcf4][ContextId:6]
+			{
+				var Name = "GameCamera"
+				Transform 
+				{
+					var Translation = Real3{3.81469727e-06, -4.76837158e-07, 2.62173387e-07}
+					var Scale = Real3{1, 1, 1}
+					var Rotation = Quaternion{-0.263284624, 0.654813647, 0.261906445, 0.658259273}
+				}
+				CameraViewport 
+				{
+					var RenderInEditor = false
+					var RenderInGame = true
+					var RenderOrder = 0
+					var CameraPath = CogPath
+					{
+						var Path = "."
+						var ErrorOnResolveToNull = false
+						var ErrorOnPathCantCompute = false
+						var ErrorOnDirectLinkFail = false
+						var UpdateCogOnPathChange = true
+						var UpdatePathOnCogChange = true
+						var UpdateCogOnInitialize = true
+						var ResolvedNullErrorOccurred = false
+						var Cog = 6
+						var PathPreference0 = CogPathPreference.CogRelative
+						var PathPreference1 = CogPathPreference.SpaceRelative
+						var PathPreference2 = CogPathPreference.Absolute
+					}
+					var RendererPath = CogPath
+					{
+						var Path = ":/Renderer"
+						var ErrorOnResolveToNull = false
+						var ErrorOnPathCantCompute = false
+						var ErrorOnDirectLinkFail = false
+						var UpdateCogOnPathChange = true
+						var UpdatePathOnCogChange = true
+						var UpdateCogOnInitialize = true
+						var ResolvedNullErrorOccurred = false
+						var Cog = 2
+						var PathPreference0 = CogPathPreference.CogRelative
+						var PathPreference1 = CogPathPreference.SpaceRelative
+						var PathPreference2 = CogPathPreference.Absolute
+					}
+					var ResolutionOrAspect = Integer2{1920, 1080}
+					var RenderToViewport = true
+					var ForwardViewportEvents = false
+					var ViewportScaling = ViewportScaling.Letterbox
+					var MarginColor = Real4{0, 0, 0, 1}
+					var NormalizedSize = Real2{1, 1}
+					var NormalizedOffset = Real2{0, 0}
+				}
+				Camera 
+				{
+					var NearPlane = 0.100000001
+					var FarPlane = 100
+					var PerspectiveMode = PerspectiveMode.Perspective
+					var FieldOfView = 67
+					var Size = 20
+					var Aperture = 5.5999999
+					var FocalDistance = 6.74932194
+					var ShutterSpeed = 580
+					var ISO = 100
+				}
+				SoundListener 
+				{
+					var Active = true
+					var AttenuationScale = 1
+				}
+				Orientation 
+				{
+					var GlobalUp = Real3{0, 1, 0}
+					var LocalOrientationBasis = Quaternion{0, 0, 0, 1}
+					var DefaultBases = OrientationBases.Custom
+				}
+				CameraController 
+				{
+					var MovementOrientation = CogPath
+					{
+						var Path = ".."
+						var ErrorOnResolveToNull = false
+						var ErrorOnPathCantCompute = false
+						var ErrorOnDirectLinkFail = false
+						var UpdateCogOnPathChange = true
+						var UpdatePathOnCogChange = true
+						var UpdateCogOnInitialize = true
+						var ResolvedNullErrorOccurred = false
+						var Cog = 5
+						var PathPreference0 = CogPathPreference.CogRelative
+						var PathPreference1 = CogPathPreference.SpaceRelative
+						var PathPreference2 = CogPathPreference.Absolute
+					}
+					var Speed = 5
+					var LeftKey = Keys.A
+					var RightKey = Keys.D
+					var ForwardKey = Keys.W
+					var BackKey = Keys.S
+					var TestArchetype = "62d0de81038327bb:crops_cornStageD"
+				}
+				Hierarchy 
+				{
+				}
+			}
+			Cog [Id:0x632f78d0edb2ff89][ContextId:3]
+			{
+				var Name = "DirectionalLightShadows"
+				Transform 
+				{
+					var Translation = Real3{-8.56183243, 15.1728239, 22.6050606}
+					var Scale = Real3{1.00000012, 1, 1}
+					var Rotation = Quaternion{-0.250579923, 0.247542396, 0.0664443299, 0.933551073}
+				}
+				SelectionIcon 
+				{
+					var Visible = true
+					var VisibilityEvents = true
+					var Material = "56581e2bb81777be:DebugDrawOnTop"
+					var SpriteSource = "58f8e4be736f5ea2:LightIcon"
+					var ViewScale = 1
+					var OverrideSelections = true
+				}
+				Model 
+				{
+					var Visible = true
+					var ViewCulling = false
+					var VisibilityEvents = true
+					var OverrideBoundingBox = false
+					var LocalAabbCenter = Real3{0, 0, 0}
+					var LocalAabbHalfExtents = Real3{1, 1, 1}
+					var GroupSortValue = 0
+					var Material = "580267aabbf7843e:DirectionalLightShadows"
+					var Mesh = "4de0354322b345ae:Cube"
+				}
+				DirectionalLight 
+				{
+					var LightColor = Real4{1, 1, 1, 1}
+					var LightIntensity = 2100
+					var SpecularMultiplier = 1
+					var LightTemperature = 6500
+				}
+				CameraViewport 
+				{
+					var RenderInEditor = true
+					var RenderInGame = true
+					var RenderOrder = -1
+					var CameraPath = CogPath
+					{
+						var Path = "."
+						var ErrorOnResolveToNull = false
+						var ErrorOnPathCantCompute = false
+						var ErrorOnDirectLinkFail = false
+						var UpdateCogOnPathChange = true
+						var UpdatePathOnCogChange = true
+						var UpdateCogOnInitialize = true
+						var ResolvedNullErrorOccurred = false
+						var Cog = 3
+						var PathPreference0 = CogPathPreference.CogRelative
+						var PathPreference1 = CogPathPreference.SpaceRelative
+						var PathPreference2 = CogPathPreference.Absolute
+					}
+					var RendererPath = CogPath
+					{
+						var Path = "."
+						var ErrorOnResolveToNull = false
+						var ErrorOnPathCantCompute = false
+						var ErrorOnDirectLinkFail = false
+						var UpdateCogOnPathChange = true
+						var UpdatePathOnCogChange = true
+						var UpdateCogOnInitialize = true
+						var ResolvedNullErrorOccurred = false
+						var Cog = 3
+						var PathPreference0 = CogPathPreference.CogRelative
+						var PathPreference1 = CogPathPreference.SpaceRelative
+						var PathPreference2 = CogPathPreference.Absolute
+					}
+					var ResolutionOrAspect = Integer2{1920, 1080}
+					var RenderToViewport = false
+					var ForwardViewportEvents = false
+					var ViewportScaling = ViewportScaling.Fill
+					var MarginColor = Real4{0, 0, 0, 1}
+					var NormalizedSize = Real2{1, 1}
+					var NormalizedOffset = Real2{0, 0}
+				}
+				Camera 
+				{
+					var NearPlane = 0.100000001
+					var FarPlane = 100
+					var PerspectiveMode = PerspectiveMode.Orthographic
+					var FieldOfView = 45
+					var Size = 32
+					var Aperture = 1.39999998
+					var FocalDistance = 22
+					var ShutterSpeed = 100
+					var ISO = 100
+				}
+				ShadowRenderer 
+				{
+					var Static = false
+					var ResolutionValue = ShadowResolution.High
+					var NormalOffsetBias = 0.100000001
+				}
+				Hierarchy 
+				{
+				}
+			}
+		}
+	}
+	Cog [ContextId:7]
+	{
+		var Name = "Cube"
+		Transform 
+		{
+			var Translation = Real3{0, 0, 0}
+			var Scale = Real3{200, 1, 200}
+			var Rotation = Quaternion{0, 0, 0, 1}
+		}
+		Model 
+		{
+			var Visible = true
+			var ViewCulling = true
+			var VisibilityEvents = true
+			var OverrideBoundingBox = false
+			var LocalAabbCenter = Real3{0, 0, 0}
+			var LocalAabbHalfExtents = Real3{1, 1, 1}
+			var GroupSortValue = 0
+			var Material = "62d0dd89a4603512:Green"
+			var Mesh = "4de0354322b345ae:Cube"
+		}
+		BoxCollider 
+		{
+			var Ghost = false
+			var SendsEvents = true
+			var Material = "4de020863e872da8:DefaultPhysicsMaterial"
+			var CollisionGroup = "4e740859314e5515:DefaultGroup"
+			var Offset = Real3{0, 0, 0}
+			var HalfSize = Real3{0.5, 0.5, 0.5}
+		}
+	}
+	Cog [ContextId:8]
+	{
+		var Name = "Bounds"
+		Transform 
+		{
+			var Translation = Real3{0, 0, 0}
+			var Scale = Real3{1, 1, 1}
+			var Rotation = Quaternion{0, 0, 0, 1}
+		}
+		Hierarchy 
+		{
+			Cog [Id:0x62d0dc3711f5af2a][ContextId:9]
+			{
+				var Name = "Cube"
+				Transform 
+				{
+					var Translation = Real3{100, 0, 0}
+					var Scale = Real3{1, 100, 200}
+					var Rotation = Quaternion{0, 0, 0, 1}
+				}
+				BoxCollider 
+				{
+					var Ghost = false
+					var SendsEvents = true
+					var Material = "4de020863e872da8:DefaultPhysicsMaterial"
+					var CollisionGroup = "4e740859314e5515:DefaultGroup"
+					var Offset = Real3{0, 0, 0}
+					var HalfSize = Real3{0.5, 0.5, 0.5}
+				}
+			}
+			Cog [Id:0x62d0dc62713c6fe8][ContextId:10]
+			{
+				var Name = "Cube"
+				Transform 
+				{
+					var Translation = Real3{-100, 0, 0}
+					var Scale = Real3{1, 100, 200}
+					var Rotation = Quaternion{0, 0, 0, 1}
+				}
+				BoxCollider 
+				{
+					var Ghost = false
+					var SendsEvents = true
+					var Material = "4de020863e872da8:DefaultPhysicsMaterial"
+					var CollisionGroup = "4e740859314e5515:DefaultGroup"
+					var Offset = Real3{0, 0, 0}
+					var HalfSize = Real3{0.5, 0.5, 0.5}
+				}
+			}
+			Cog [Id:0x62d0dc7a7469e01c][ContextId:11]
+			{
+				var Name = "Cube"
+				Transform 
+				{
+					var Translation = Real3{0, 0, 100}
+					var Scale = Real3{200, 100, 1}
+					var Rotation = Quaternion{0, 0, 0, 1}
+				}
+				BoxCollider 
+				{
+					var Ghost = false
+					var SendsEvents = true
+					var Material = "4de020863e872da8:DefaultPhysicsMaterial"
+					var CollisionGroup = "4e740859314e5515:DefaultGroup"
+					var Offset = Real3{0, 0, 0}
+					var HalfSize = Real3{0.5, 0.5, 0.5}
+				}
+			}
+			Cog [Id:0x62d0dc4641973d8b][ContextId:12]
+			{
+				var Name = "Cube"
+				Transform 
+				{
+					var Translation = Real3{0, 0, -100}
+					var Scale = Real3{200, 100, 1}
+					var Rotation = Quaternion{0, 0, 0, 1}
+				}
+				BoxCollider 
+				{
+					var Ghost = false
+					var SendsEvents = true
+					var Material = "4de020863e872da8:DefaultPhysicsMaterial"
+					var CollisionGroup = "4e740859314e5515:DefaultGroup"
+					var Offset = Real3{0, 0, 0}
+					var HalfSize = Real3{0.5, 0.5, 0.5}
+				}
+			}
+		}
+	}
+	Cog [ContextId:13]
+	{
+		var Name = "Crop_Leafs"
+		Transform 
+		{
+			var Translation = Real3{46.8471184, 0.5, -1.21800637}
+			var Scale = Real3{1, 1, 1}
+			var Rotation = Quaternion{0, 0, 0, 1}
+		}
+		Hierarchy 
+		{
+			Cog [Id:0x62d0dfb39194859a][InheritId:"62d0de810399ddc5:crops_leafsStageA"][ContextId:14]
+			{
+				Transform 
+				{
+					var Translation = Real3{0, 0, -0.75}
+					var Rotation = Quaternion{0, 0, 0, 1}
+					var Scale = Real3{1, 1, 1}
+				}
+			}
+			Cog [Id:0x62d0dfb39194861b][InheritId:"62d0de81039733da:crops_leafsStageB"][ContextId:15]
+			{
+				Transform 
+				{
+					var Translation = Real3{0, 0, 2.38418579e-07}
+					var Rotation = Quaternion{0, 0, 0, 1}
+					var Scale = Real3{1, 1, 1}
+				}
+			}
+		}
+	}
+	Cog [InheritId:"62d0de810391edee:crop_pumpkin"][ContextId:16]
+	{
+		Transform 
+		{
+			var Translation = Real3{46.8471184, 0.5, -3.96800613}
+			var Rotation = Quaternion{0, 0, 0, 1}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [ContextId:17]
+	{
+		var Name = "Crop_Bamboo"
+		Transform 
+		{
+			var Translation = Real3{46.8471184, 0.5, 6.90699387}
+			var Scale = Real3{1, 1, 1}
+			var Rotation = Quaternion{0, 0, 0, 1}
+		}
+		Hierarchy 
+		{
+			Cog [Id:0x62d0dfdac4ae92c7][InheritId:"62d0de810389a172:crops_bambooStageB"][ContextId:18]
+			{
+				Transform 
+				{
+					var Translation = Real3{0, 0, 0.375}
+					var Rotation = Quaternion{0, 0, 0, 1}
+					var Scale = Real3{1, 1, 1}
+				}
+				Model 
+				{
+					var Material = "62d0df342d1f30eb:Bamboo"
+				}
+			}
+			Cog [Id:0x62d0dfdac4ae937c][InheritId:"62d0de81038bf0b7:crops_bambooStageA"][ContextId:19]
+			{
+				Transform 
+				{
+					var Translation = Real3{0, 0, -0.375}
+					var Rotation = Quaternion{0, 0, 0, 1}
+					var Scale = Real3{1, 1, 1}
+				}
+				Model 
+				{
+					var Material = "62d0df342d1f30eb:Bamboo"
+				}
+			}
+		}
+	}
+	Cog [ContextId:20]
+	{
+		var Name = "Crop_Corn"
+		Transform 
+		{
+			var Translation = Real3{46.8471184, 0.5, 1.40942764}
+			var Scale = Real3{1, 1, 1}
+			var Rotation = Quaternion{0, 0, 0, 1}
+		}
+		Hierarchy 
+		{
+			Cog [Id:0x62d0df58124b00d3][InheritId:"62d0de8103871957:crops_cornStageA"][ContextId:21]
+			{
+				Transform 
+				{
+					var Translation = Real3{0, 0, -1.12743378}
+					var Rotation = Quaternion{0, 0, 0, 1}
+					var Scale = Real3{1, 1, 1}
+				}
+			}
+			Cog [Id:0x62d0df58124b0181][InheritId:"62d0de8103847e87:crops_cornStageB"][ContextId:22]
+			{
+				Transform 
+				{
+					var Translation = Real3{0, 0, -0.367698431}
+					var Rotation = Quaternion{0, 0, 0, 1}
+					var Scale = Real3{1, 1, 1}
+				}
+			}
+			Cog [Id:0x62d0df58124b020f][InheritId:"62d0de810385d35f:crops_cornStageC"][ContextId:23]
+			{
+				Transform 
+				{
+					var Translation = Real3{0, 0, 0.372566223}
+					var Rotation = Quaternion{0, 0, 0, 1}
+					var Scale = Real3{1, 1, 1}
+				}
+			}
+			Cog [Id:0x62d0df58124b0370][InheritId:"62d0de81038327bb:crops_cornStageD"][ContextId:24]
+			{
+				Transform 
+				{
+					var Translation = Real3{0, 0, 1.12256622}
+					var Rotation = Quaternion{0, 0, 0, 1}
+					var Scale = Real3{1, 1, 1}
+				}
+			}
+		}
+	}
+	Cog [InheritId:"62d0de8103af53f8:crop_turnip"][ContextId:25]
+	{
+		Transform 
+		{
+			var Translation = Real3{46.8471184, 0.5, -7.71800613}
+			var Rotation = Quaternion{0, 0, 0, 1}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [InheritId:"62d0de8103934ba3:crop_carrot"][ContextId:26]
+	{
+		Transform 
+		{
+			var Translation = Real3{46.8471184, 0.5, -8.71800613}
+			var Rotation = Quaternion{0, 0, 0, 1}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [ContextId:27]
+	{
+		var Name = "Crop_wheet"
+		Transform 
+		{
+			var Translation = Real3{44.0971184, 0.5, -6.09300613}
+			var Scale = Real3{1, 1, 1}
+			var Rotation = Quaternion{0, 0, 0, 1}
+		}
+		Hierarchy 
+		{
+			Cog [Id:0x62d0c49e9690c906][InheritId:"62d0de810395ef7b:crops_wheatStageB"][ContextId:28]
+			{
+				Transform 
+				{
+					var Translation = Real3{0, 0, 0.375}
+					var Rotation = Quaternion{0, 0, 0, 1}
+					var Scale = Real3{1, 1, 1}
+				}
+			}
+			Cog [Id:0x62d0c49e9690c9ac][InheritId:"62d0de8103948627:crops_wheatStageA"][ContextId:29]
+			{
+				Transform 
+				{
+					var Translation = Real3{0, 0, -0.375}
+					var Rotation = Quaternion{0, 0, 0, 1}
+					var Scale = Real3{1, 1, 1}
+				}
+			}
+		}
+	}
+	Cog [InheritId:"62d0de810390a041:crop_melon"][ContextId:30]
+	{
+		Transform 
+		{
+			var Translation = Real3{44.0971184, 0.5, -4.21800613}
+			var Rotation = Quaternion{0, 0, 0, 1}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+}

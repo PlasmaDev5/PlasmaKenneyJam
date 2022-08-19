@@ -1,0 +1,29 @@
+// MIT Licensed (see LICENSE.md).
+
+class GoToMainMenu : LightningComponent
+{
+  [Property]
+  var TargetColor : Real4 = Real4(1,1,1,1);
+  
+  [Property]
+  var MainMneu : Level;
+  
+  function Initialize(init : CogInitializer)
+  {
+    var actionSequence = Actions.Sequence(this.Owner.Actions);
+
+    Actions.Property(actionSequence,
+                 @this.Owner.UiWidget.LocalColor,
+                 this.TargetColor,
+                 2,
+                 Ease.Linear);
+    
+    Actions.Call(actionSequence, this.ChangeScene);
+    //Plasma.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+  }
+
+  function ChangeScene()
+  {
+    this.Space.LoadLevel(this.MainMneu);
+  }
+}

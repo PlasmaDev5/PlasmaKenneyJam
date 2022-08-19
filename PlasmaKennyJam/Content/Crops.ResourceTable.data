@@ -1,0 +1,21 @@
+[Version:1]
+ResourceTable 
+{
+	var ResourceType = "Archetype"
+	var EntryList = Array
+	{
+		Object
+		{
+			var Name = "Carrot"
+			var Value = "62d0de8103934ba3:crop_carrot"
+			var Weight = 1
+		}
+		Object
+		{
+			var Name = "Melon"
+			var Value = "62d0de810390a041:crop_melon"
+			var Weight = 1
+		}
+	}
+	var MaxWeight = 1
+}
