@@ -1,0 +1,254 @@
+[Version:1]
+Cog 
+{
+	var Name = "crops_cornStageD"
+	Transform 
+	{
+		var Translation = Real3{0, 0, 1.12256622}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, 0, 0, 1}
+	}
+	Model 
+	{
+		var Visible = true
+		var ViewCulling = true
+		var VisibilityEvents = true
+		var OverrideBoundingBox = false
+		var LocalAabbCenter = Real3{0, 0, 0}
+		var LocalAabbHalfExtents = Real3{1, 1, 1}
+		var GroupSortValue = 0
+		var Material = "62d0d8a060d89964:Corn"
+		var Mesh = "62d0de8103ba7f8b:crops_cornStageD_crops_cornStageD"
+	}
+	Hierarchy 
+	{
+		Cog [Id:0x62d0de80020d8c36]
+		{
+			var Name = "corn"
+			Transform 
+			{
+				var Translation = Real3{0.137500003, 0.237059101, -0.220785812}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Hierarchy 
+			{
+				Cog [Id:0x62d0de80020d8c3a]
+				{
+					var Name = "cornGeneratedMeshNode0"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "62d0d8a060d89964:Corn"
+						var Mesh = "62d0de8103ba7f9e:crops_cornStageD_cornGeneratedMeshNode0"
+					}
+				}
+				Cog [Id:0x62d0de80020d8c3c]
+				{
+					var Name = "cornGeneratedMeshNode1"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "62d0d8924c5dc37d:CornYellow"
+						var Mesh = "62d0de8103ba7fa8:crops_cornStageD_cornGeneratedMeshNode1"
+					}
+				}
+			}
+		}
+		Cog [Id:0x62d0de80020d8c3e]
+		{
+			var Name = "corn2"
+			Transform 
+			{
+				var Translation = Real3{0.220785812, 0.487059027, 0.137500003}
+				var Scale = Real3{0.99999994, 1, 0.99999994}
+				var Rotation = Quaternion{0, -0.707106829, 0, 0.707106769}
+			}
+			Hierarchy 
+			{
+				Cog [Id:0x62d0de80020d8c40]
+				{
+					var Name = "corn2GeneratedMeshNode3"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "62d0d8a060d89964:Corn"
+						var Mesh = "62d0de8103ba7fb0:crops_cornStageD_corn2GeneratedMeshNode3"
+					}
+				}
+				Cog [Id:0x62d0de80020d8c42]
+				{
+					var Name = "corn2GeneratedMeshNode4"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "62d0d8924c5dc37d:CornYellow"
+						var Mesh = "62d0de8103ba7fbb:crops_cornStageD_corn2GeneratedMeshNode4"
+					}
+				}
+			}
+		}
+		Cog [Id:0x62d0de80020d8c44]
+		{
+			var Name = "corn5"
+			Transform 
+			{
+				var Translation = Real3{-0.137500003, 0.737059057, 0.220785812}
+				var Scale = Real3{0.99999994, 1, 0.99999994}
+				var Rotation = Quaternion{0, 1, 0, 4.37113918e-08}
+			}
+			Hierarchy 
+			{
+				Cog [Id:0x62d0de80020d8c45]
+				{
+					var Name = "corn5GeneratedMeshNode6"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "62d0d8a060d89964:Corn"
+						var Mesh = "62d0de8103ba7fc8:crops_cornStageD_corn5GeneratedMeshNode6"
+					}
+				}
+				Cog [Id:0x62d0de80020d8c47]
+				{
+					var Name = "corn5GeneratedMeshNode7"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "62d0d8924c5dc37d:CornYellow"
+						var Mesh = "62d0de8103ba7fcf:crops_cornStageD_corn5GeneratedMeshNode7"
+					}
+				}
+			}
+		}
+		Cog [Id:0x62d0de80020d8c49]
+		{
+			var Name = "corn8"
+			Transform 
+			{
+				var Translation = Real3{-0.220785812, 0.987059057, -0.137500003}
+				var Scale = Real3{0.99999994, 1, 0.99999994}
+				var Rotation = Quaternion{0, 0.707106769, 0, 0.707106829}
+			}
+			Hierarchy 
+			{
+				Cog [Id:0x62d0de80020d8c4a]
+				{
+					var Name = "corn8GeneratedMeshNode9"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "62d0d8a060d89964:Corn"
+						var Mesh = "62d0de8103ba7fda:crops_cornStageD_corn8GeneratedMeshNode9"
+					}
+				}
+				Cog [Id:0x62d0de80020d8c4c]
+				{
+					var Name = "corn8GeneratedMeshNode10"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "62d0d8924c5dc37d:CornYellow"
+						var Mesh = "62d0de8103ba7fe6:crops_cornStageD_corn8GeneratedMeshNode10"
+					}
+				}
+			}
+		}
+	}
+}

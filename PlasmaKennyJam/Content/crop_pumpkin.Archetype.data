@@ -1,0 +1,58 @@
+[Version:1]
+Cog 
+{
+	var Name = "crop_pumpkin"
+	Transform 
+	{
+		var Translation = Real3{46.8471184, 0.5, -3.96800613}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, 0, 0, 1}
+	}
+	Hierarchy 
+	{
+		Cog [Id:0x62d0de80022a9ca4]
+		{
+			var Name = "crop_pumpkinGeneratedMeshNode0"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "62d0dfccca0562b6:Pumkin"
+				var Mesh = "62d0de8002656bfd:crop_pumpkin_crop_pumpkinGeneratedMeshNode0"
+			}
+		}
+		Cog [Id:0x62d0de80022a9ca7]
+		{
+			var Name = "crop_pumpkinGeneratedMeshNode1"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "62d0dfccca0562b6:Pumkin"
+				var Mesh = "62d0de8002656c0f:crop_pumpkin_crop_pumpkinGeneratedMeshNode1"
+			}
+		}
+	}
+}

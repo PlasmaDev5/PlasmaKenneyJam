@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "cactus_tall"
+		var ResourceId = 0x62d0dd77de8537d1
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

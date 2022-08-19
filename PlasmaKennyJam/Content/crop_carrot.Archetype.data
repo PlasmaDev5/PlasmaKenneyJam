@@ -1,0 +1,58 @@
+[Version:1]
+Cog 
+{
+	var Name = "crop_carrot"
+	Transform 
+	{
+		var Translation = Real3{46.8471184, 0.5, -8.71800613}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, 0, 0, 1}
+	}
+	Hierarchy 
+	{
+		Cog [Id:0x62d0de8002119b50]
+		{
+			var Name = "crop_carrotGeneratedMeshNode0"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "62d0df99eebad879:Leaf"
+				var Mesh = "62d0de80026d2e5c:crop_carrot_crop_carrotGeneratedMeshNode0"
+			}
+		}
+		Cog [Id:0x62d0de8002119b53]
+		{
+			var Name = "crop_carrotGeneratedMeshNode1"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "62d0db47bd2453ff:carrot"
+				var Mesh = "62d0de80026d2e67:crop_carrot_crop_carrotGeneratedMeshNode1"
+			}
+		}
+	}
+}

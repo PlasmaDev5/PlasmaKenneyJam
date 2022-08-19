@@ -1,0 +1,18 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "crops_dirtRowEnd"
+		var ResourceId = 0x62d0de81039b2d98
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+	ContentTags 
+	{
+		var Tags = Array
+		{
+			"Crops"
+		}
+	}
+}

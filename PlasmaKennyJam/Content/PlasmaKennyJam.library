@@ -1,0 +1,8 @@
+[Version:1]
+ContentLibrary 
+{
+	var Name = "PlasmaKennyJam"
+	var LibraryId = 0x62d0d358f1d19276
+	var SourceControlType = ""
+	var ReadOnly = false
+}

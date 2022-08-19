@@ -1,0 +1,58 @@
+[Version:1]
+Cog 
+{
+	var Name = "crops_dirtRowCorner"
+	Transform 
+	{
+		var Translation = Real3{0, -0.0500000007, 0}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, 0, 0, 1}
+	}
+	Hierarchy 
+	{
+		Cog [Id:0x62d0de80020165ff]
+		{
+			var Name = "crops_dirtRowCornerGeneratedMeshNode0"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "62d0de8102499f9a:crops_dirtRowCorner_crops_dirtRowCornerGeneratedMeshNode0"
+			}
+		}
+		Cog [Id:0x62d0de8002016603]
+		{
+			var Name = "crops_dirtRowCornerGeneratedMeshNode1"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "62d0de8102499fa9:crops_dirtRowCorner_crops_dirtRowCornerGeneratedMeshNode1"
+			}
+		}
+	}
+}

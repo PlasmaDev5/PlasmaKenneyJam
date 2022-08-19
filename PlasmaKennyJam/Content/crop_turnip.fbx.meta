@@ -1,0 +1,41 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "crop_turnip_crop_turnipGeneratedMeshNode0"
+				var ResourceId = 0x62d0de800260fbee
+			}
+			Object
+			{
+				var Name = "crop_turnip_crop_turnipGeneratedMeshNode1"
+				var ResourceId = 0x62d0de800260fbfd
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x62d0de8103af53f8
+	}
+}

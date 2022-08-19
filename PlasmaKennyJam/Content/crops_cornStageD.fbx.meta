@@ -1,0 +1,76 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "crops_cornStageD_crops_cornStageD"
+				var ResourceId = 0x62d0de8103ba7f8b
+			}
+			Object
+			{
+				var Name = "crops_cornStageD_cornGeneratedMeshNode0"
+				var ResourceId = 0x62d0de8103ba7f9e
+			}
+			Object
+			{
+				var Name = "crops_cornStageD_cornGeneratedMeshNode1"
+				var ResourceId = 0x62d0de8103ba7fa8
+			}
+			Object
+			{
+				var Name = "crops_cornStageD_corn2GeneratedMeshNode3"
+				var ResourceId = 0x62d0de8103ba7fb0
+			}
+			Object
+			{
+				var Name = "crops_cornStageD_corn2GeneratedMeshNode4"
+				var ResourceId = 0x62d0de8103ba7fbb
+			}
+			Object
+			{
+				var Name = "crops_cornStageD_corn5GeneratedMeshNode6"
+				var ResourceId = 0x62d0de8103ba7fc8
+			}
+			Object
+			{
+				var Name = "crops_cornStageD_corn5GeneratedMeshNode7"
+				var ResourceId = 0x62d0de8103ba7fcf
+			}
+			Object
+			{
+				var Name = "crops_cornStageD_corn8GeneratedMeshNode9"
+				var ResourceId = 0x62d0de8103ba7fda
+			}
+			Object
+			{
+				var Name = "crops_cornStageD_corn8GeneratedMeshNode10"
+				var ResourceId = 0x62d0de8103ba7fe6
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x62d0de81038327bb
+	}
+}

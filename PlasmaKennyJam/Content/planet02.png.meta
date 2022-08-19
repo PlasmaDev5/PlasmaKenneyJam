@@ -1,0 +1,20 @@
+[Version:1]
+ImageContent 
+{
+	SpriteSourceBuilder 
+	{
+		var Name = "planet02"
+		var ResourceId = 0x62d0dcfd26282815
+		var FrameSizeX = 1280
+		var FrameSizeY = 1280
+		var FrameCount = 1
+		var FrameDelay = 0.0833333358
+		var OriginX = 640
+		var OriginY = 640
+		var PixelsPerUnit = 64
+		var Sampling = SpriteSampling.Linear
+		var Looping = true
+		var Slices = Real4{0, 0, 0, 0}
+		var Fill = SpriteFill.Stretch
+	}
+}
