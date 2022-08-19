@@ -15,7 +15,7 @@ Cog
 			var Name = "crop_carrotGeneratedMeshNode0"
 			Transform 
 			{
-				var Translation = Real3{0, 0, 0}
+				var Translation = Real3{0, -0.262985051, 0}
 				var Scale = Real3{1, 1, 1}
 				var Rotation = Quaternion{0, 0, 0, 1}
 			}
@@ -37,7 +37,7 @@ Cog
 			var Name = "crop_carrotGeneratedMeshNode1"
 			Transform 
 			{
-				var Translation = Real3{0, 0, 0}
+				var Translation = Real3{0, -0.262985051, 0}
 				var Scale = Real3{1, 1, 1}
 				var Rotation = Quaternion{0, 0, 0, 1}
 			}

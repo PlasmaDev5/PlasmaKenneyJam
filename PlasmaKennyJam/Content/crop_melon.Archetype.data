@@ -4,7 +4,7 @@ Cog
 	var Name = "crop_melon"
 	Transform 
 	{
-		var Translation = Real3{0, -0.0500000007, 0}
+		var Translation = Real3{44.0971184, 0.5, -4.21800613}
 		var Scale = Real3{1, 1, 1}
 		var Rotation = Quaternion{0, 0, 0, 1}
 	}
@@ -28,7 +28,7 @@ Cog
 				var LocalAabbCenter = Real3{0, 0, 0}
 				var LocalAabbHalfExtents = Real3{1, 1, 1}
 				var GroupSortValue = 0
-				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Material = "62d0c5d3ace23f4f:MellonB"
 				var Mesh = "62d0de800268e89d:crop_melon_crop_melonGeneratedMeshNode0"
 			}
 		}
@@ -50,7 +50,7 @@ Cog
 				var LocalAabbCenter = Real3{0, 0, 0}
 				var LocalAabbHalfExtents = Real3{1, 1, 1}
 				var GroupSortValue = 0
-				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Material = "62d0c5de57d9d1e3:MellonA"
 				var Mesh = "62d0de800268e8b6:crop_melon_crop_melonGeneratedMeshNode1"
 			}
 		}
@@ -72,7 +72,7 @@ Cog
 				var LocalAabbCenter = Real3{0, 0, 0}
 				var LocalAabbHalfExtents = Real3{1, 1, 1}
 				var GroupSortValue = 0
-				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Material = "62d0df99eebad879:Leaf"
 				var Mesh = "62d0de800268e8be:crop_melon_crop_melonGeneratedMeshNode2"
 			}
 		}
