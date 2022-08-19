@@ -108,107 +108,22 @@ Level
 			var Bloom7 = true
 			var Bloom8 = true
 		}
-	}
-	Cog [ContextId:3]
-	{
-		var Name = "DirectionalLightShadows"
-		Transform 
+		PostProcessFog 
 		{
-			var Translation = Real3{0, 20, 20}
-			var Scale = Real3{1, 1, 1}
-			var Rotation = Quaternion{-0.382683456, 0, 0, 0.923879504}
+			var Active = true
+			var FogStart = 1.60928535
+			var FogDensity = 4.75001192
+			var FogColor = Real4{0.356999993, 0.570840001, 0.600000024, 1}
+			var Debug = false
 		}
-		SelectionIcon 
+		PostProcessDOF 
 		{
-			var Visible = true
-			var VisibilityEvents = true
-			var Material = "56581e2bb81777be:DebugDrawOnTop"
-			var SpriteSource = "58f8e4be736f5ea2:LightIcon"
-			var ViewScale = 1
-			var OverrideSelections = true
-		}
-		Model 
-		{
-			var Visible = true
-			var ViewCulling = false
-			var VisibilityEvents = true
-			var OverrideBoundingBox = false
-			var LocalAabbCenter = Real3{0, 0, 0}
-			var LocalAabbHalfExtents = Real3{1, 1, 1}
-			var GroupSortValue = 0
-			var Material = "580267aabbf7843e:DirectionalLightShadows"
-			var Mesh = "4de0354322b345ae:Cube"
-		}
-		DirectionalLight 
-		{
-			var LightColor = Real4{1, 1, 1, 1}
-			var LightIntensity = 2100
-			var SpecularMultiplier = 1
-			var LightTemperature = 6500
-		}
-		CameraViewport 
-		{
-			var RenderInEditor = true
-			var RenderInGame = true
-			var RenderOrder = -1
-			var CameraPath = CogPath
-			{
-				var Path = "."
-				var ErrorOnResolveToNull = false
-				var ErrorOnPathCantCompute = false
-				var ErrorOnDirectLinkFail = false
-				var UpdateCogOnPathChange = true
-				var UpdatePathOnCogChange = true
-				var UpdateCogOnInitialize = true
-				var ResolvedNullErrorOccurred = false
-				var Cog = 3
-				var PathPreference0 = CogPathPreference.CogRelative
-				var PathPreference1 = CogPathPreference.SpaceRelative
-				var PathPreference2 = CogPathPreference.Absolute
-			}
-			var RendererPath = CogPath
-			{
-				var Path = "."
-				var ErrorOnResolveToNull = false
-				var ErrorOnPathCantCompute = false
-				var ErrorOnDirectLinkFail = false
-				var UpdateCogOnPathChange = true
-				var UpdatePathOnCogChange = true
-				var UpdateCogOnInitialize = true
-				var ResolvedNullErrorOccurred = false
-				var Cog = 3
-				var PathPreference0 = CogPathPreference.CogRelative
-				var PathPreference1 = CogPathPreference.SpaceRelative
-				var PathPreference2 = CogPathPreference.Absolute
-			}
-			var ResolutionOrAspect = Integer2{1920, 1080}
-			var RenderToViewport = false
-			var ForwardViewportEvents = false
-			var ViewportScaling = ViewportScaling.Fill
-			var MarginColor = Real4{0, 0, 0, 1}
-			var NormalizedSize = Real2{1, 1}
-			var NormalizedOffset = Real2{0, 0}
-		}
-		Camera 
-		{
-			var NearPlane = 0.100000001
-			var FarPlane = 100
-			var PerspectiveMode = PerspectiveMode.Orthographic
-			var FieldOfView = 45
-			var Size = 64
-			var Aperture = 1.39999998
-			var FocalDistance = 22
-			var ShutterSpeed = 100
-			var ISO = 100
-		}
-		ShadowRenderer 
-		{
-			var Static = false
-			var ResolutionValue = ShadowResolution.High
-			var NormalOffsetBias = 0.100000001
-		}
-		Hierarchy 
-		{
+			var Enable = true
+			var BlurAmmount = 22
+			var BokehSize = 8
+			var BlurBokeh = BokehBlurStrength.Low
+			var Debug = false
+			var DebugType = DebugType.COC
 		}
 	}
 	Cog [ContextId:4]
@@ -216,9 +131,9 @@ Level
 		var Name = "EditorCamera"
 		Transform 
 		{
-			var Translation = Real3{63.6322632, 7.44790459, -8.23269176}
+			var Translation = Real3{55.4813194, 4.82717705, -2.60505819}
 			var Scale = Real3{1, 1, 1}
-			var Rotation = Quaternion{-0.142919466, 0.680209458, 0.137771517, 0.70562613}
+			var Rotation = Quaternion{-0.263284594, 0.654813647, 0.261906445, 0.658259273}
 		}
 		CameraViewport 
 		{
@@ -266,23 +181,23 @@ Level
 		Camera 
 		{
 			var NearPlane = 0.100000001
-			var FarPlane = 200
+			var FarPlane = 100
 			var PerspectiveMode = PerspectiveMode.Perspective
-			var FieldOfView = 60
+			var FieldOfView = 67
 			var Size = 20
-			var Aperture = 22
-			var FocalDistance = 22
-			var ShutterSpeed = 280
+			var Aperture = 5.5999999
+			var FocalDistance = 6.74932194
+			var ShutterSpeed = 580
 			var ISO = 100
 		}
 		EditorCameraController 
 		{
 			var ControlMode = ControlMode.Orbit
 			var Previous3DMode = ControlMode.Orbit
-			var LookDistance = 0.742735744
-			var VerticalAngle = 0.399678618
-			var HorizontalAngle = 4.7490654
-			var LookTarget = Real3{62.9485245, 7.15888977, -8.25778008}
+			var LookDistance = 0.450491965
+			var VerticalAngle = 0.760962665
+			var HorizontalAngle = -1.56554818
+			var LookTarget = Real3{55.1550903, 4.51650906, -2.60677028}
 			var MoveSensitivity = 1
 			var InvertGamepadPitch = false
 			var GamepadMoveSensitivity = 0.100000001
@@ -361,13 +276,13 @@ Level
 				Camera 
 				{
 					var NearPlane = 0.100000001
-					var FarPlane = 200
+					var FarPlane = 100
 					var PerspectiveMode = PerspectiveMode.Perspective
-					var FieldOfView = 60
+					var FieldOfView = 67
 					var Size = 20
-					var Aperture = 22
-					var FocalDistance = 22
-					var ShutterSpeed = 280
+					var Aperture = 5.5999999
+					var FocalDistance = 6.74932194
+					var ShutterSpeed = 580
 					var ISO = 100
 				}
 				SoundListener 
@@ -404,6 +319,108 @@ Level
 					var ForwardKey = Keys.W
 					var BackKey = Keys.S
 					var TestArchetype = "62d0de81038327bb:crops_cornStageD"
+				}
+				Hierarchy 
+				{
+				}
+			}
+			Cog [Id:0x632f78d0edb2ff89][ContextId:3]
+			{
+				var Name = "DirectionalLightShadows"
+				Transform 
+				{
+					var Translation = Real3{-8.56183243, 15.1728239, 22.6050606}
+					var Scale = Real3{1.00000012, 1, 1}
+					var Rotation = Quaternion{-0.250579923, 0.247542396, 0.0664443299, 0.933551073}
+				}
+				SelectionIcon 
+				{
+					var Visible = true
+					var VisibilityEvents = true
+					var Material = "56581e2bb81777be:DebugDrawOnTop"
+					var SpriteSource = "58f8e4be736f5ea2:LightIcon"
+					var ViewScale = 1
+					var OverrideSelections = true
+				}
+				Model 
+				{
+					var Visible = true
+					var ViewCulling = false
+					var VisibilityEvents = true
+					var OverrideBoundingBox = false
+					var LocalAabbCenter = Real3{0, 0, 0}
+					var LocalAabbHalfExtents = Real3{1, 1, 1}
+					var GroupSortValue = 0
+					var Material = "580267aabbf7843e:DirectionalLightShadows"
+					var Mesh = "4de0354322b345ae:Cube"
+				}
+				DirectionalLight 
+				{
+					var LightColor = Real4{1, 1, 1, 1}
+					var LightIntensity = 2100
+					var SpecularMultiplier = 1
+					var LightTemperature = 6500
+				}
+				CameraViewport 
+				{
+					var RenderInEditor = true
+					var RenderInGame = true
+					var RenderOrder = -1
+					var CameraPath = CogPath
+					{
+						var Path = "."
+						var ErrorOnResolveToNull = false
+						var ErrorOnPathCantCompute = false
+						var ErrorOnDirectLinkFail = false
+						var UpdateCogOnPathChange = true
+						var UpdatePathOnCogChange = true
+						var UpdateCogOnInitialize = true
+						var ResolvedNullErrorOccurred = false
+						var Cog = 3
+						var PathPreference0 = CogPathPreference.CogRelative
+						var PathPreference1 = CogPathPreference.SpaceRelative
+						var PathPreference2 = CogPathPreference.Absolute
+					}
+					var RendererPath = CogPath
+					{
+						var Path = "."
+						var ErrorOnResolveToNull = false
+						var ErrorOnPathCantCompute = false
+						var ErrorOnDirectLinkFail = false
+						var UpdateCogOnPathChange = true
+						var UpdatePathOnCogChange = true
+						var UpdateCogOnInitialize = true
+						var ResolvedNullErrorOccurred = false
+						var Cog = 3
+						var PathPreference0 = CogPathPreference.CogRelative
+						var PathPreference1 = CogPathPreference.SpaceRelative
+						var PathPreference2 = CogPathPreference.Absolute
+					}
+					var ResolutionOrAspect = Integer2{1920, 1080}
+					var RenderToViewport = false
+					var ForwardViewportEvents = false
+					var ViewportScaling = ViewportScaling.Fill
+					var MarginColor = Real4{0, 0, 0, 1}
+					var NormalizedSize = Real2{1, 1}
+					var NormalizedOffset = Real2{0, 0}
+				}
+				Camera 
+				{
+					var NearPlane = 0.100000001
+					var FarPlane = 100
+					var PerspectiveMode = PerspectiveMode.Orthographic
+					var FieldOfView = 45
+					var Size = 32
+					var Aperture = 1.39999998
+					var FocalDistance = 22
+					var ShutterSpeed = 100
+					var ISO = 100
+				}
+				ShadowRenderer 
+				{
+					var Static = false
+					var ResolutionValue = ShadowResolution.High
+					var NormalOffsetBias = 0.100000001
 				}
 				Hierarchy 
 				{
