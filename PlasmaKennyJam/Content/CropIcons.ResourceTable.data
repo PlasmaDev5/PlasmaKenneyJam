@@ -1,0 +1,57 @@
+[Version:1]
+ResourceTable 
+{
+	var ResourceType = "SpriteSource"
+	var EntryList = Array
+	{
+		Object
+		{
+			var Name = "Carrot"
+			var Value = "632fdbb398eafd78:crop_carrot"
+			var Weight = 1
+		}
+		Object
+		{
+			var Name = "Melon"
+			var Value = "632fdbb398e91755:crop_melon"
+			var Weight = 1
+		}
+		Object
+		{
+			var Name = "Pumpkin"
+			var Value = "632fdbb398e70200:crop_pumpkin"
+			var Weight = 1
+		}
+		Object
+		{
+			var Name = "Turnip"
+			var Value = "632fdbb398e51607:crop_turnip"
+			var Weight = 1
+		}
+		Object
+		{
+			var Name = "Bamboo"
+			var Value = "632fdbb398d3da4f:crops_bambooStageB"
+			var Weight = 1
+		}
+		Object
+		{
+			var Name = "Corn"
+			var Value = "632f44cc002796d1:crops_cornStageD"
+			var Weight = 1
+		}
+		Object
+		{
+			var Name = "Leafs"
+			var Value = "632fdbb398ee20bc:crops_leafsStageB"
+			var Weight = 1
+		}
+		Object
+		{
+			var Name = "Wheat"
+			var Value = "632fdbb398ecbe30:crops_wheatStageB"
+			var Weight = 1
+		}
+	}
+	var MaxWeight = 1
+}

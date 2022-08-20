@@ -1,0 +1,14 @@
+// MIT Licensed (see LICENSE.md).
+
+enum Crops
+{
+  Carrot,
+  Melon,
+  Pumpkin,
+  Turnip,
+  Bamboo,
+  Corn,
+  Leafs,
+  Wheat,
+  Unkown
+}

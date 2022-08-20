@@ -1,0 +1,25 @@
+// MIT Licensed (see LICENSE.md).
+
+class HUD : LightningComponent
+{
+  [Property] var Lookup : ResourceTable;
+  [Property] var CurrentCrop : Crops;
+  
+  [Property] var Icon : CogPath;
+  
+  var LastCrop : Crops = Crops.Unkown;
+  
+  function Initialize(init : CogInitializer)
+  {
+    Plasma.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+  }
+
+  function OnLogicUpdate(event : UpdateEvent)
+  {
+    if(this.LastCrop != this.CurrentCrop)
+    {
+      this.Icon.Sprite.SpriteSource = this.Lookup.GetOrNull("`this.CurrentCrop`").Resource as SpriteSource;
+      this.LastCrop = this.CurrentCrop;
+    }
+  }
+}
