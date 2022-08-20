@@ -1,0 +1,20 @@
+[Version:1]
+ImageContent 
+{
+	SpriteSourceBuilder 
+	{
+		var Name = "glassPanel"
+		var ResourceId = 0x632f490e24f4c92b
+		var FrameSizeX = 100
+		var FrameSizeY = 100
+		var FrameCount = 1
+		var FrameDelay = 0.0833333358
+		var OriginX = 50
+		var OriginY = 50
+		var PixelsPerUnit = 128
+		var Sampling = SpriteSampling.Nearest
+		var Looping = true
+		var Slices = Real4{6, 6, 6, 6}
+		var Fill = SpriteFill.NineSlice
+	}
+}

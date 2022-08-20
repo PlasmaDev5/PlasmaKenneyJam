@@ -1,0 +1,9 @@
+[Version:1]
+TextContent 
+{
+	LightningScriptBuilder 
+	{
+		var Name = "MainMenu"
+		var ResourceId = 0x632fe909602bc225
+	}
+}
