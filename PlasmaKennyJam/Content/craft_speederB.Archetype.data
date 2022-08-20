@@ -1,0 +1,102 @@
+[Version:1]
+Cog 
+{
+	var Name = "craft_speederB"
+	Transform 
+	{
+		var Translation = Real3{-2, 0, -1.5}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, 0, 0, 1}
+	}
+	Hierarchy 
+	{
+		Cog [Id:0x632ebd1085856a16]
+		{
+			var Name = "craft_speederBGeneratedMeshNode0"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0b89e347c9:craft_speederB_craft_speederBGeneratedMeshNode0"
+			}
+		}
+		Cog [Id:0x632ebd1085856a1d]
+		{
+			var Name = "craft_speederBGeneratedMeshNode1"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0b89e347e8:craft_speederB_craft_speederBGeneratedMeshNode1"
+			}
+		}
+		Cog [Id:0x632ebd1085856a1f]
+		{
+			var Name = "craft_speederBGeneratedMeshNode2"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0b89e347f9:craft_speederB_craft_speederBGeneratedMeshNode2"
+			}
+		}
+		Cog [Id:0x632ebd1085856a20]
+		{
+			var Name = "craft_speederBGeneratedMeshNode3"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0b89e3480f:craft_speederB_craft_speederBGeneratedMeshNode3"
+			}
+		}
+	}
+}

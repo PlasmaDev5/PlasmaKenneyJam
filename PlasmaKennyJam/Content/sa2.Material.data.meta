@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "sa2"
+		var ResourceId = 0x632eb6c79333ce7f
+		var LoaderType = "Material"
+		var Version = 0
+	}
+}

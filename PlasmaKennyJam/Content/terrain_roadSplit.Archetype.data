@@ -1,0 +1,58 @@
+[Version:1]
+Cog 
+{
+	var Name = "terrain_roadSplit"
+	Transform 
+	{
+		var Translation = Real3{-2, 0, -1.5}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, 0, 0, 1}
+	}
+	Hierarchy 
+	{
+		Cog [Id:0x632ebd1284bf10c4]
+		{
+			var Name = "terrain_roadSplitGeneratedMeshNode0"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0f8a5b9164:terrain_roadSplit_terrain_roadSplitGeneratedMeshNode0"
+			}
+		}
+		Cog [Id:0x632ebd1284bf10ca]
+		{
+			var Name = "terrain_roadSplitGeneratedMeshNode1"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0f8a5b917e:terrain_roadSplit_terrain_roadSplitGeneratedMeshNode1"
+			}
+		}
+	}
+}

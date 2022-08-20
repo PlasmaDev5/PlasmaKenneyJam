@@ -1,0 +1,41 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "terrain_rampLarge_terrain_rampLargeGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0f8bb5d6f9
+			}
+			Object
+			{
+				var Name = "terrain_rampLarge_terrain_rampLargeGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0f8bb5d712
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098ee4cb6c
+	}
+}

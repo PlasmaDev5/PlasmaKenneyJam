@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "machine_barrelLarge"
+		var ResourceId = 0x632ebd068e0821aa
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

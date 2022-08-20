@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "satelliteDish_detailed"
+		var ResourceId = 0x632ebd098ed01932
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

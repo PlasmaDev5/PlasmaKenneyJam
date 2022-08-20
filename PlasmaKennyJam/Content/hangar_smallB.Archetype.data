@@ -1,0 +1,238 @@
+[Version:1]
+Cog 
+{
+	var Name = "hangar_smallB"
+	Transform 
+	{
+		var Translation = Real3{-2, 0, -1.5}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, 0, 0, 1}
+	}
+	Hierarchy 
+	{
+		Cog [Id:0x632ebd1085be3adb]
+		{
+			var Name = "hangar_smallBGeneratedMeshNode0"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0b8857dc9a:hangar_smallB_hangar_smallBGeneratedMeshNode0"
+			}
+		}
+		Cog [Id:0x632ebd1085be3ae1]
+		{
+			var Name = "hangar_smallBGeneratedMeshNode1"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0b8857dcb9:hangar_smallB_hangar_smallBGeneratedMeshNode1"
+			}
+		}
+		Cog [Id:0x632ebd1085be3ae3]
+		{
+			var Name = "hangar_smallBGeneratedMeshNode2"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0b8857dccd:hangar_smallB_hangar_smallBGeneratedMeshNode2"
+			}
+		}
+		Cog [Id:0x632ebd1085be3ae5]
+		{
+			var Name = "gate"
+			Transform 
+			{
+				var Translation = Real3{1.09730509e-13, 9.67439462e-09, -0.850000024}
+				var Scale = Real3{0.99999994, 1, 0.99999994}
+				var Rotation = Quaternion{0, 1, 0, 4.37113918e-08}
+			}
+			Hierarchy 
+			{
+				Cog [Id:0x632ebd1085be3ae7]
+				{
+					var Name = "gateGeneratedMeshNode3"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "583afb5e7bf75e18:PlasmaMaterial"
+						var Mesh = "632ebd0b8857dce5:hangar_smallB_gateGeneratedMeshNode3"
+					}
+				}
+				Cog [Id:0x632ebd1085be3ae9]
+				{
+					var Name = "gateGeneratedMeshNode4"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "583afb5e7bf75e18:PlasmaMaterial"
+						var Mesh = "632ebd0b8857dcfb:hangar_smallB_gateGeneratedMeshNode4"
+					}
+				}
+				Cog [Id:0x632ebd1085be3aeb]
+				{
+					var Name = "gateGeneratedMeshNode5"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "583afb5e7bf75e18:PlasmaMaterial"
+						var Mesh = "632ebd0b8857dd10:hangar_smallB_gateGeneratedMeshNode5"
+					}
+				}
+			}
+		}
+		Cog [Id:0x632ebd1085be3aed]
+		{
+			var Name = "gate6"
+			Transform 
+			{
+				var Translation = Real3{-1.12618194e-13, 9.67439462e-09, 0.415912718}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Hierarchy 
+			{
+				Cog [Id:0x632ebd1085be3aef]
+				{
+					var Name = "gate6GeneratedMeshNode7"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "583afb5e7bf75e18:PlasmaMaterial"
+						var Mesh = "632ebd0b8857dd23:hangar_smallB_gate6GeneratedMeshNode7"
+					}
+				}
+				Cog [Id:0x632ebd1085be3af1]
+				{
+					var Name = "gate6GeneratedMeshNode8"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "583afb5e7bf75e18:PlasmaMaterial"
+						var Mesh = "632ebd0b8857dd3f:hangar_smallB_gate6GeneratedMeshNode8"
+					}
+				}
+				Cog [Id:0x632ebd1085be3af2]
+				{
+					var Name = "gate6GeneratedMeshNode9"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "583afb5e7bf75e18:PlasmaMaterial"
+						var Mesh = "632ebd0b8857dd50:hangar_smallB_gate6GeneratedMeshNode9"
+					}
+				}
+			}
+		}
+	}
+}

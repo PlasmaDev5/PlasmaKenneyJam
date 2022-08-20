@@ -1,0 +1,56 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "satelliteDish_detailed_satelliteDish_detailedGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0c8bdafb89
+			}
+			Object
+			{
+				var Name = "satelliteDish_detailed_satelliteDish_detailedGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0c8bdafba8
+			}
+			Object
+			{
+				var Name = "satelliteDish_detailed_satelliteDish_detailedGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0c8bdafbb8
+			}
+			Object
+			{
+				var Name = "satelliteDish_detailed_satelliteDish_detailedGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0c8bdafbcf
+			}
+			Object
+			{
+				var Name = "satelliteDish_detailed_satelliteDish_detailedGeneratedMeshNode4"
+				var ResourceId = 0x632ebd0c8bdafbe3
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098ed01932
+	}
+}

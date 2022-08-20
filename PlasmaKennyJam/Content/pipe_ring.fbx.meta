@@ -1,0 +1,51 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "pipe_ring_pipe_ringGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0d88fb9634
+			}
+			Object
+			{
+				var Name = "pipe_ring_pipe_ringGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0d88fb9659
+			}
+			Object
+			{
+				var Name = "pipe_ring_pipe_ringGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0d88fb9675
+			}
+			Object
+			{
+				var Name = "pipe_ring_pipe_ringGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0d88fb969d
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098e2cebb7
+	}
+}

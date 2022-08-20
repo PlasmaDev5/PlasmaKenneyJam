@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "pipe_ring"
+		var ResourceId = 0x632ebd098e2cebb7
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

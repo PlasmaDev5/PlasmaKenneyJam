@@ -1,0 +1,71 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "monorail_trainCargo_monorail_trainCargoGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0a882a7f86
+			}
+			Object
+			{
+				var Name = "monorail_trainCargo_monorail_trainCargoGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0a882a7fa2
+			}
+			Object
+			{
+				var Name = "monorail_trainCargo_monorail_trainCargoGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0a882a7fb5
+			}
+			Object
+			{
+				var Name = "monorail_trainCargo_monorail_trainCargoGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0a882a7fcc
+			}
+			Object
+			{
+				var Name = "monorail_trainCargo_loadGeneratedMeshNode4"
+				var ResourceId = 0x632ebd0a882a7fe0
+			}
+			Object
+			{
+				var Name = "monorail_trainCargo_loadGeneratedMeshNode5"
+				var ResourceId = 0x632ebd0a882a7ff9
+			}
+			Object
+			{
+				var Name = "monorail_trainCargo_loadGeneratedMeshNode6"
+				var ResourceId = 0x632ebd0a882a800a
+			}
+			Object
+			{
+				var Name = "monorail_trainCargo_loadGeneratedMeshNode7"
+				var ResourceId = 0x632ebd0a882a8028
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098e1a6a16
+	}
+}

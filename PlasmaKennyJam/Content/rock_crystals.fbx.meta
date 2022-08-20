@@ -1,0 +1,46 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "rock_crystals_rock_crystalsGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0c8b376fa5
+			}
+			Object
+			{
+				var Name = "rock_crystals_rock_crystalsGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0c8b376fbd
+			}
+			Object
+			{
+				var Name = "rock_crystals_rock_crystalsGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0c8b376fd2
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098ec95ab8
+	}
+}

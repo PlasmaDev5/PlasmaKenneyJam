@@ -1,0 +1,23 @@
+[Version:1]
+Cog 
+{
+	var Name = "bones"
+	Transform 
+	{
+		var Translation = Real3{49.6100616, 0.482121289, 1.32362819}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, -0.844665468, 0, 0.535294592}
+	}
+	Model 
+	{
+		var Visible = true
+		var ViewCulling = true
+		var VisibilityEvents = true
+		var OverrideBoundingBox = false
+		var LocalAabbCenter = Real3{0, 0, 0}
+		var LocalAabbHalfExtents = Real3{1, 1, 1}
+		var GroupSortValue = 0
+		var Material = "632eb37428c66fbb:Boney"
+		var Mesh = "632ebd0889601e23:bones"
+	}
+}

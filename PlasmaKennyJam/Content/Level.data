@@ -46,7 +46,7 @@ Level
 		{
 			var OverrideResolution = false
 			var CustomResolution = Integer2{1920, 1080}
-			var Skybox = "5822dec85e380cf1:SimpleSkybox"
+			var Skybox = "632eb5813a07013a:satara_night_no_lamps_2k"
 			var ClearColor = Real4{0, 0, 0, 1}
 			var DirectLighting = true
 			var IndirectLighting = true
@@ -65,7 +65,7 @@ Level
 			var GameDebugDraw = true
 			var RenderDiffuse = true
 			var RenderSpecular = true
-			var RenderSkybox = true
+			var RenderSkybox = false
 			var DirectionalLight = CogPath
 			{
 				var Path = ":/DirectionalLightShadows"
@@ -110,7 +110,7 @@ Level
 		}
 		PostProcessFog 
 		{
-			var Active = true
+			var Active = false
 			var FogStart = 1.60928535
 			var FogDensity = 4.75001192
 			var FogColor = Real4{0.356999993, 0.570840001, 0.600000024, 1}
@@ -118,7 +118,7 @@ Level
 		}
 		PostProcessDOF 
 		{
-			var Enable = true
+			var Enable = false
 			var BlurAmmount = 22
 			var BokehSize = 8
 			var BlurBokeh = BokehBlurStrength.Low
@@ -131,9 +131,9 @@ Level
 		var Name = "EditorCamera"
 		Transform 
 		{
-			var Translation = Real3{55.4813194, 4.82717705, -2.60505819}
+			var Translation = Real3{58.7597427, 5.70265579, -4.65054226}
 			var Scale = Real3{1, 1, 1}
-			var Rotation = Quaternion{-0.263284594, 0.654813647, 0.261906445, 0.658259273}
+			var Rotation = Quaternion{-0.118792936, 0.772213817, 0.151502386, 0.605492532}
 		}
 		CameraViewport 
 		{
@@ -194,10 +194,10 @@ Level
 		{
 			var ControlMode = ControlMode.Orbit
 			var Previous3DMode = ControlMode.Orbit
-			var LookDistance = 0.450491965
-			var VerticalAngle = 0.760962665
-			var HorizontalAngle = -1.56554818
-			var LookTarget = Real3{55.1550903, 4.51650906, -2.60677028}
+			var LookDistance = 10.535717
+			var VerticalAngle = 0.387463212
+			var HorizontalAngle = -1.81165254
+			var LookTarget = Real3{49.2866096, 1.72183084, -2.32371044}
 			var MoveSensitivity = 1
 			var InvertGamepadPitch = false
 			var GamepadMoveSensitivity = 0.100000001
@@ -318,7 +318,7 @@ Level
 					var RightKey = Keys.D
 					var ForwardKey = Keys.W
 					var BackKey = Keys.S
-					var TestArchetype = "62d0de81038327bb:crops_cornStageD"
+					var TestArchetype = "632f5d92cf657563:Corn"
 				}
 				Hierarchy 
 				{
@@ -357,9 +357,9 @@ Level
 				DirectionalLight 
 				{
 					var LightColor = Real4{1, 1, 1, 1}
-					var LightIntensity = 2100
+					var LightIntensity = 320
 					var SpecularMultiplier = 1
-					var LightTemperature = 6500
+					var LightTemperature = 10000
 				}
 				CameraViewport 
 				{
@@ -730,6 +730,108 @@ Level
 		Transform 
 		{
 			var Translation = Real3{44.0971184, 0.5, -4.21800613}
+			var Rotation = Quaternion{0, 0, 0, 1}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [InheritId:"632ebd068e62bc65:barrels_rail"][ContextId:31]
+	{
+		Transform 
+		{
+			var Translation = Real3{49.836834, 0.459464431, -0.225287944}
+			var Rotation = Quaternion{0, -0.648305655, 0, -0.761380255}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [InheritId:"632ebd068e63b2b5:bones"][ContextId:32]
+	{
+		Transform 
+		{
+			var Translation = Real3{49.6100616, 0.482121289, 1.32362819}
+			var Rotation = Quaternion{0, -0.844665468, 0, 0.535294592}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [ContextId:33]
+	{
+		var Name = "PointLight"
+		Transform 
+		{
+			var Translation = Real3{49.2866096, 1.72183084, -2.32371044}
+			var Scale = Real3{20, 20, 20}
+			var Rotation = Quaternion{0, -0.0911065713, 0, 0.995841146}
+		}
+		SelectionIcon 
+		{
+			var Visible = true
+			var VisibilityEvents = true
+			var Material = "564a44b7f62c1d67:DebugDraw"
+			var SpriteSource = "58f8e4be736f5ea2:LightIcon"
+			var ViewScale = 1
+			var OverrideSelections = true
+		}
+		Model 
+		{
+			var Visible = true
+			var ViewCulling = true
+			var VisibilityEvents = true
+			var OverrideBoundingBox = false
+			var LocalAabbCenter = Real3{0, 0, 0}
+			var LocalAabbHalfExtents = Real3{1, 1, 1}
+			var GroupSortValue = 0
+			var Material = "580644d674646690:PointLight"
+			var Mesh = "4de0354322b376ae:Sphere"
+		}
+		PointLight 
+		{
+			var LightColor = Real4{1, 1, 1, 1}
+			var LightIntensity = 800
+			var SpecularMultiplier = 1
+			var LightTemperature = 6500
+			var FalloffRadius = 10
+			var LightRadius = 0
+			var LightLength = 0
+		}
+		Hierarchy 
+		{
+		}
+	}
+	Cog [InheritId:"632ebd098ed10351:satelliteDish_large"][ContextId:34]
+	{
+		Transform 
+		{
+			var Translation = Real3{48.8888626, 0.471832037, 2.7727828}
+			var Rotation = Quaternion{0, 0.0940676183, 0, 0.995565832}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [InheritId:"632ebd068e03bfff:gate_simple"][ContextId:35]
+	{
+		Transform 
+		{
+			var Translation = Real3{52.8000031, 0.49999994, -3.88878179}
+			var Rotation = Quaternion{0, -0.726541519, 0, -0.687122583}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [InheritId:"632ebd098ec871f1:rocks_smallB"][ContextId:36]
+	{
+		Transform 
+		{
+			var Translation = Real3{53.7373314, 0.5, -6.04267025}
+			var Rotation = Quaternion{0, 0, 0, 1}
+			var Scale = Real3{1, 1, 1}
+		}
+		Model 
+		{
+			var Material = "632ea837f5c8332c:ruvj"
+		}
+	}
+	Cog [InheritId:"632ebd098ecb81e3:rocks_smallA"][ContextId:37]
+	{
+		Transform 
+		{
+			var Translation = Real3{54.1705132, 0.5, -4.77078915}
 			var Rotation = Quaternion{0, 0, 0, 1}
 			var Scale = Real3{1, 1, 1}
 		}

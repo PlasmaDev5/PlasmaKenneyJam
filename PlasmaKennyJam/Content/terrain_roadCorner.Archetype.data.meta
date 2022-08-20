@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "terrain_roadCorner"
+		var ResourceId = 0x632ebd098ee2abbb
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

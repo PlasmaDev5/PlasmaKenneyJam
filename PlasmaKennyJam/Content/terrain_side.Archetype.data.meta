@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "terrain_side"
+		var ResourceId = 0x632ebd098eef1fae
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

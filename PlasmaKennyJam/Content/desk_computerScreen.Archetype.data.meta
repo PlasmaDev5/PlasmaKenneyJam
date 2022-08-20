@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "desk_computerScreen"
+		var ResourceId = 0x632ebd068e05d509
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

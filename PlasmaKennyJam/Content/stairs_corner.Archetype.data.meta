@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "stairs_corner"
+		var ResourceId = 0x632ebd098edefa27
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

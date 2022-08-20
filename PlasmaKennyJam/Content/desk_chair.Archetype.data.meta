@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "desk_chair"
+		var ResourceId = 0x632ebd068e791a3b
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

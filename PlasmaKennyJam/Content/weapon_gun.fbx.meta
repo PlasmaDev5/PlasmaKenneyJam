@@ -1,0 +1,51 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "weapon_gun_weapon_gunGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0f8a0ff69a
+			}
+			Object
+			{
+				var Name = "weapon_gun_weapon_gunGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0f8a0ff6b5
+			}
+			Object
+			{
+				var Name = "weapon_gun_weapon_gunGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0f8a0ff6c6
+			}
+			Object
+			{
+				var Name = "weapon_gun_weapon_gunGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0f8a0ff6dc
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098ee96ab5
+	}
+}

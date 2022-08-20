@@ -1,0 +1,51 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "craft_racer_craft_racerGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0b89de189e
+			}
+			Object
+			{
+				var Name = "craft_racer_craft_racerGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0b89de18bf
+			}
+			Object
+			{
+				var Name = "craft_racer_craft_racerGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0b89de18d1
+			}
+			Object
+			{
+				var Name = "craft_racer_craft_racerGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0b89de18e8
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd068e7e7eba
+	}
+}

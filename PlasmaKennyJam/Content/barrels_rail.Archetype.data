@@ -1,0 +1,308 @@
+[Version:1]
+Cog 
+{
+	var Name = "barrels_rail"
+	Transform 
+	{
+		var Translation = Real3{49.836834, 0.459464431, 0.190874249}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, -0.648305655, 0, -0.761380255}
+	}
+	Hierarchy 
+	{
+		Cog [Id:0x632ebd1185c0fdda]
+		{
+			var Name = "barrels_railGeneratedMeshNode0"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "632ebc433fdf3e69:barrelrail1"
+				var Mesh = "632ebd08895cfde9:barrels_rail_barrels_railGeneratedMeshNode0"
+			}
+		}
+		Cog [Id:0x632ebd1185c0fde1]
+		{
+			var Name = "barrels_railGeneratedMeshNode1"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "632ebc433fdf3e69:barrelrail1"
+				var Mesh = "632ebd08895cfe0b:barrels_rail_barrels_railGeneratedMeshNode1"
+			}
+		}
+		Cog [Id:0x632ebd1185c0fde3]
+		{
+			var Name = "barrels_railGeneratedMeshNode2"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "632ebc433fdf3e69:barrelrail1"
+				var Mesh = "632ebd08895cfe1c:barrels_rail_barrels_railGeneratedMeshNode2"
+			}
+		}
+		Cog [Id:0x632ebd1185c0fde5]
+		{
+			var Name = "barrel"
+			Transform 
+			{
+				var Translation = Real3{-0.125, 0.100000001, -0.1116025}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Hierarchy 
+			{
+				Cog [Id:0x632ebd1185c0fde7]
+				{
+					var Name = "barrelGeneratedMeshNode3"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "632ebe6e15cc8adb:barrel2"
+						var Mesh = "632ebd08895cfe34:barrels_rail_barrelGeneratedMeshNode3"
+					}
+				}
+				Cog [Id:0x632ebd1185c0fde9]
+				{
+					var Name = "barrelGeneratedMeshNode4"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "632eb12d58c4ca1b:barrelmid"
+						var Mesh = "632ebd08895cfe4e:barrels_rail_barrelGeneratedMeshNode4"
+					}
+				}
+			}
+		}
+		Cog [Id:0x632ebd1185c0fdeb]
+		{
+			var Name = "barrel5"
+			Transform 
+			{
+				var Translation = Real3{0.125, 0.100000001, -0.1116025}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Hierarchy 
+			{
+				Cog [Id:0x632ebd1185c0fded]
+				{
+					var Name = "barrel5GeneratedMeshNode6"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "632ebe6e15cc8adb:barrel2"
+						var Mesh = "632ebd08895cfe69:barrels_rail_barrel5GeneratedMeshNode6"
+					}
+				}
+				Cog [Id:0x632ebd1185c0fdee]
+				{
+					var Name = "barrel5GeneratedMeshNode7"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "632eb12d58c4ca1b:barrelmid"
+						var Mesh = "632ebd08895cfe7b:barrels_rail_barrel5GeneratedMeshNode7"
+					}
+				}
+			}
+		}
+		Cog [Id:0x632ebd1185c0fdf0]
+		{
+			var Name = "barrel8"
+			Transform 
+			{
+				var Translation = Real3{0.125, 0.100000001, 0.1116025}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Hierarchy 
+			{
+				Cog [Id:0x632ebd1185c0fdf2]
+				{
+					var Name = "barrel8GeneratedMeshNode9"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "632ebe6e15cc8adb:barrel2"
+						var Mesh = "632ebd08895cfe99:barrels_rail_barrel8GeneratedMeshNode9"
+					}
+				}
+				Cog [Id:0x632ebd1185c0fdf4]
+				{
+					var Name = "barrel8GeneratedMeshNode10"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "632eb12d58c4ca1b:barrelmid"
+						var Mesh = "632ebd08895cfea9:barrels_rail_barrel8GeneratedMeshNode10"
+					}
+				}
+			}
+		}
+		Cog [Id:0x632ebd1185c0fdf6]
+		{
+			var Name = "barrel11"
+			Transform 
+			{
+				var Translation = Real3{-0.125, 0.100000001, 0.1116025}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Hierarchy 
+			{
+				Cog [Id:0x632ebd1185c0fdf8]
+				{
+					var Name = "barrel11GeneratedMeshNode12"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "632ebe6e15cc8adb:barrel2"
+						var Mesh = "632ebd08895cfebb:barrels_rail_barrel11GeneratedMeshNode12"
+					}
+				}
+				Cog [Id:0x632ebd1185c0fdf9]
+				{
+					var Name = "barrel11GeneratedMeshNode13"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "632eb12d58c4ca1b:barrelmid"
+						var Mesh = "632ebd08895cfed5:barrels_rail_barrel11GeneratedMeshNode13"
+					}
+				}
+			}
+		}
+	}
+}

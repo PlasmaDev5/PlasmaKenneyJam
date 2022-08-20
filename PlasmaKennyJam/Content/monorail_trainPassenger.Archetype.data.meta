@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "monorail_trainPassenger"
+		var ResourceId = 0x632ebd098e2636a7
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

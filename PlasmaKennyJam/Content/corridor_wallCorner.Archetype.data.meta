@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "corridor_wallCorner"
+		var ResourceId = 0x632ebd068e74daf1
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

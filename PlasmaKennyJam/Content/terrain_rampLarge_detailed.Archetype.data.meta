@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "terrain_rampLarge_detailed"
+		var ResourceId = 0x632ebd098ee5b7ed
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

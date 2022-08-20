@@ -1,0 +1,61 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "machine_barrel_machine_barrelGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0a885d4d5d
+			}
+			Object
+			{
+				var Name = "machine_barrel_machine_barrelGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0a885d4d76
+			}
+			Object
+			{
+				var Name = "machine_barrel_machine_barrelGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0a885d4d87
+			}
+			Object
+			{
+				var Name = "machine_barrel_machine_barrelGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0a885d4da0
+			}
+			Object
+			{
+				var Name = "machine_barrel_cablesGeneratedMeshNode4"
+				var ResourceId = 0x632ebd0a885d4db8
+			}
+			Object
+			{
+				var Name = "machine_barrel_cablesGeneratedMeshNode5"
+				var ResourceId = 0x632ebd0a885d4dd5
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd068e0b3079
+	}
+}

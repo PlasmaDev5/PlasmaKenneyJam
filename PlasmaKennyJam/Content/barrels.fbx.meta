@@ -1,0 +1,81 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "barrels_barrelsGeneratedMeshNode0"
+				var ResourceId = 0x632ebd088956ddda
+			}
+			Object
+			{
+				var Name = "barrels_barrelsGeneratedMeshNode1"
+				var ResourceId = 0x632ebd088956ddf6
+			}
+			Object
+			{
+				var Name = "barrels_barrelGeneratedMeshNode2"
+				var ResourceId = 0x632ebd088956de09
+			}
+			Object
+			{
+				var Name = "barrels_barrelGeneratedMeshNode3"
+				var ResourceId = 0x632ebd088956de28
+			}
+			Object
+			{
+				var Name = "barrels_barrel4GeneratedMeshNode5"
+				var ResourceId = 0x632ebd088956de40
+			}
+			Object
+			{
+				var Name = "barrels_barrel4GeneratedMeshNode6"
+				var ResourceId = 0x632ebd088956de5d
+			}
+			Object
+			{
+				var Name = "barrels_barrel7GeneratedMeshNode8"
+				var ResourceId = 0x632ebd088956de6f
+			}
+			Object
+			{
+				var Name = "barrels_barrel7GeneratedMeshNode9"
+				var ResourceId = 0x632ebd088956de88
+			}
+			Object
+			{
+				var Name = "barrels_barrel10GeneratedMeshNode11"
+				var ResourceId = 0x632ebd088956dea1
+			}
+			Object
+			{
+				var Name = "barrels_barrel10GeneratedMeshNode12"
+				var ResourceId = 0x632ebd088956deb1
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd068e65d4da
+	}
+}

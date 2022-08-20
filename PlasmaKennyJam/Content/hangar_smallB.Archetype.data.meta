@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "hangar_smallB"
+		var ResourceId = 0x632ebd068e0a4261
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

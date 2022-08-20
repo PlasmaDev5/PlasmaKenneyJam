@@ -1,0 +1,121 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "astronautA_armLeftGeneratedMeshNode0"
+				var ResourceId = 0x632ebd098e966b5f
+			}
+			Object
+			{
+				var Name = "astronautA_armLeftGeneratedMeshNode1"
+				var ResourceId = 0x632ebd098e966b90
+			}
+			Object
+			{
+				var Name = "astronautA_armLeftGeneratedMeshNode2"
+				var ResourceId = 0x632ebd098e966bab
+			}
+			Object
+			{
+				var Name = "astronautA_armRightGeneratedMeshNode3"
+				var ResourceId = 0x632ebd098e966bc4
+			}
+			Object
+			{
+				var Name = "astronautA_armRightGeneratedMeshNode4"
+				var ResourceId = 0x632ebd098e966bde
+			}
+			Object
+			{
+				var Name = "astronautA_armRightGeneratedMeshNode5"
+				var ResourceId = 0x632ebd098e966bf5
+			}
+			Object
+			{
+				var Name = "astronautA_bodyGeneratedMeshNode6"
+				var ResourceId = 0x632ebd098e966c0a
+			}
+			Object
+			{
+				var Name = "astronautA_bodyGeneratedMeshNode7"
+				var ResourceId = 0x632ebd098e966c3f
+			}
+			Object
+			{
+				var Name = "astronautA_bodyGeneratedMeshNode8"
+				var ResourceId = 0x632ebd098e966c5f
+			}
+			Object
+			{
+				var Name = "astronautA_headGeneratedMeshNode9"
+				var ResourceId = 0x632ebd098e966c77
+			}
+			Object
+			{
+				var Name = "astronautA_headGeneratedMeshNode10"
+				var ResourceId = 0x632ebd098e966c9a
+			}
+			Object
+			{
+				var Name = "astronautA_headGeneratedMeshNode11"
+				var ResourceId = 0x632ebd098e966cce
+			}
+			Object
+			{
+				var Name = "astronautA_legLeftGeneratedMeshNode12"
+				var ResourceId = 0x632ebd098e966ce0
+			}
+			Object
+			{
+				var Name = "astronautA_legLeftGeneratedMeshNode13"
+				var ResourceId = 0x632ebd098e966d09
+			}
+			Object
+			{
+				var Name = "astronautA_legLeftGeneratedMeshNode14"
+				var ResourceId = 0x632ebd098e966d46
+			}
+			Object
+			{
+				var Name = "astronautA_legRightGeneratedMeshNode15"
+				var ResourceId = 0x632ebd098e966d6f
+			}
+			Object
+			{
+				var Name = "astronautA_legRightGeneratedMeshNode16"
+				var ResourceId = 0x632ebd098e966d80
+			}
+			Object
+			{
+				var Name = "astronautA_legRightGeneratedMeshNode17"
+				var ResourceId = 0x632ebd098e966db9
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd068e67fc45
+	}
+}

@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "terrain_roadStraight"
+		var ResourceId = 0x632ebd098eee3680
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "terrain_sideCliff"
+		var ResourceId = 0x632ebd098eec027c
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

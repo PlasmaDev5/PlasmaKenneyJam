@@ -1,0 +1,76 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "hangar_smallA_hangar_smallAGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0b884f13c5
+			}
+			Object
+			{
+				var Name = "hangar_smallA_hangar_smallAGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0b884f13e4
+			}
+			Object
+			{
+				var Name = "hangar_smallA_hangar_smallAGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0b884f13f3
+			}
+			Object
+			{
+				var Name = "hangar_smallA_gateGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0b884f140b
+			}
+			Object
+			{
+				var Name = "hangar_smallA_gateGeneratedMeshNode4"
+				var ResourceId = 0x632ebd0b884f1424
+			}
+			Object
+			{
+				var Name = "hangar_smallA_gateGeneratedMeshNode5"
+				var ResourceId = 0x632ebd0b884f143f
+			}
+			Object
+			{
+				var Name = "hangar_smallA_gate6GeneratedMeshNode7"
+				var ResourceId = 0x632ebd0b884f1452
+			}
+			Object
+			{
+				var Name = "hangar_smallA_gate6GeneratedMeshNode8"
+				var ResourceId = 0x632ebd0b884f1477
+			}
+			Object
+			{
+				var Name = "hangar_smallA_gate6GeneratedMeshNode9"
+				var ResourceId = 0x632ebd0b884f148a
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd068e0d6218
+	}
+}

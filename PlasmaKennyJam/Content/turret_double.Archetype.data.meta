@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "turret_double"
+		var ResourceId = 0x632ebd098eeb974a
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

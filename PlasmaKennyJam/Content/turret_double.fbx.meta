@@ -1,0 +1,61 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "turret_double_turret_doubleGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0f8a77700c
+			}
+			Object
+			{
+				var Name = "turret_double_turret_doubleGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0f8a77702a
+			}
+			Object
+			{
+				var Name = "turret_double_turret_doubleGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0f8a777040
+			}
+			Object
+			{
+				var Name = "turret_double_turretGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0f8a777057
+			}
+			Object
+			{
+				var Name = "turret_double_turretGeneratedMeshNode4"
+				var ResourceId = 0x632ebd0f8a77706e
+			}
+			Object
+			{
+				var Name = "turret_double_turretGeneratedMeshNode5"
+				var ResourceId = 0x632ebd0f8a777086
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098eeb974a
+	}
+}

@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "meteor_half"
+		var ResourceId = 0x632ebd098e12b80a
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

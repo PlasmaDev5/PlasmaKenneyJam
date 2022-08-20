@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "corridor_cornerRoundWindow"
+		var ResourceId = 0x632ebd068e6d6a07
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

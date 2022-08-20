@@ -1,0 +1,51 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "machine_barrelLarge_machine_barrelLargeGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0a88652992
+			}
+			Object
+			{
+				var Name = "machine_barrelLarge_machine_barrelLargeGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0a886529ad
+			}
+			Object
+			{
+				var Name = "machine_barrelLarge_machine_barrelLargeGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0a886529c1
+			}
+			Object
+			{
+				var Name = "machine_barrelLarge_machine_barrelLargeGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0a886529da
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd068e0821aa
+	}
+}

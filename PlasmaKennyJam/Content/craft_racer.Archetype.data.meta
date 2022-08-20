@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "craft_racer"
+		var ResourceId = 0x632ebd068e7e7eba
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

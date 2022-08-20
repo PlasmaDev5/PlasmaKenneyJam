@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "platform_smallDiagonal"
+		var ResourceId = 0x632ebd098e3b4745
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

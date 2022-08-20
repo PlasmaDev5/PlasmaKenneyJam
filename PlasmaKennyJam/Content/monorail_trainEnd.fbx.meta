@@ -1,0 +1,51 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "monorail_trainEnd_monorail_trainEndGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0a883f5264
+			}
+			Object
+			{
+				var Name = "monorail_trainEnd_monorail_trainEndGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0a883f527e
+			}
+			Object
+			{
+				var Name = "monorail_trainEnd_monorail_trainEndGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0a883f528f
+			}
+			Object
+			{
+				var Name = "monorail_trainEnd_monorail_trainEndGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0a883f52a6
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098e1b55f6
+	}
+}

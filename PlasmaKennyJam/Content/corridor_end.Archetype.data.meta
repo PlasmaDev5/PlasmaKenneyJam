@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "corridor_end"
+		var ResourceId = 0x632ebd068e682690
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

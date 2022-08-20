@@ -1,0 +1,46 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "rocket_finsB_rocket_finsBGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0c8b0a92d5
+			}
+			Object
+			{
+				var Name = "rocket_finsB_rocket_finsBGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0c8b0a92ee
+			}
+			Object
+			{
+				var Name = "rocket_finsB_rocket_finsBGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0c8b0a9300
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098ec0ca25
+	}
+}

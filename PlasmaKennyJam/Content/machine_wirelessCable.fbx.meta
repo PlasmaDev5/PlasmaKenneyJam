@@ -1,0 +1,66 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "machine_wirelessCable_machine_wirelessCableGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0a887d7088
+			}
+			Object
+			{
+				var Name = "machine_wirelessCable_machine_wirelessCableGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0a887d70a2
+			}
+			Object
+			{
+				var Name = "machine_wirelessCable_machine_wirelessCableGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0a887d70b2
+			}
+			Object
+			{
+				var Name = "machine_wirelessCable_machine_wirelessCableGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0a887d70ca
+			}
+			Object
+			{
+				var Name = "machine_wirelessCable_cableGeneratedMeshNode4"
+				var ResourceId = 0x632ebd0a887d70e0
+			}
+			Object
+			{
+				var Name = "machine_wirelessCable_cableGeneratedMeshNode5"
+				var ResourceId = 0x632ebd0a887d70fa
+			}
+			Object
+			{
+				var Name = "machine_wirelessCable_cableGeneratedMeshNode6"
+				var ResourceId = 0x632ebd0a887d710b
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098e17e02c
+	}
+}

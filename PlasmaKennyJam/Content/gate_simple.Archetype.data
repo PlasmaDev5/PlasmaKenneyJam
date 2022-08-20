@@ -1,0 +1,80 @@
+[Version:1]
+Cog 
+{
+	var Name = "gate_simple"
+	Transform 
+	{
+		var Translation = Real3{52.8000031, 0.49999994, -3.88878179}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, 0.595877945, 0, 0.803075135}
+	}
+	Hierarchy 
+	{
+		Cog [Id:0x632ebd1085a23e67]
+		{
+			var Name = "gate_simpleGeneratedMeshNode0"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "632ea95586fe1c7c:portal2"
+				var Mesh = "632ebd0b89999e3c:gate_simple_gate_simpleGeneratedMeshNode0"
+			}
+		}
+		Cog [Id:0x632ebd1085a23e6e]
+		{
+			var Name = "gate_simpleGeneratedMeshNode1"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "632ea9167edfc0da:hrdghd"
+				var Mesh = "632ebd0b89999e5e:gate_simple_gate_simpleGeneratedMeshNode1"
+			}
+		}
+		Cog [Id:0x632ebd1085a23e70]
+		{
+			var Name = "gate_simpleGeneratedMeshNode2"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "632ea8d15825cf8c:trrt"
+				var Mesh = "632ebd0b89999e6d:gate_simple_gate_simpleGeneratedMeshNode2"
+			}
+		}
+	}
+}

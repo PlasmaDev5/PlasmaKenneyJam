@@ -1,0 +1,46 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "corridor_corner_corridor_cornerGeneratedMeshNode0"
+				var ResourceId = 0x632ebd088971f8f6
+			}
+			Object
+			{
+				var Name = "corridor_corner_corridor_cornerGeneratedMeshNode1"
+				var ResourceId = 0x632ebd088971f914
+			}
+			Object
+			{
+				var Name = "corridor_corner_corridor_cornerGeneratedMeshNode2"
+				var ResourceId = 0x632ebd088971f93c
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd068e6f85e3
+	}
+}

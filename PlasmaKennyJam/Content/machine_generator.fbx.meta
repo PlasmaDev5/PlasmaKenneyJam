@@ -1,0 +1,56 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "machine_generator_machine_generatorGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0a886f6e94
+			}
+			Object
+			{
+				var Name = "machine_generator_machine_generatorGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0a886f6ead
+			}
+			Object
+			{
+				var Name = "machine_generator_machine_generatorGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0a886f6ece
+			}
+			Object
+			{
+				var Name = "machine_generator_machine_generatorGeneratedMeshNode3"
+				var ResourceId = 0x632ebd0a886f6eef
+			}
+			Object
+			{
+				var Name = "machine_generator_cable"
+				var ResourceId = 0x632ebd0a886f6f0e
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098e090996
+	}
+}

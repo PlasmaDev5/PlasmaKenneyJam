@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "monorail_trackCornerSmall"
+		var ResourceId = 0x632ebd098e10c37a
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

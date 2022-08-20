@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "crater"
+		var ResourceId = 0x632ebd068e7b2d0a
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

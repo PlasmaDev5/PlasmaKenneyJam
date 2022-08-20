@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "gate_simple"
+		var ResourceId = 0x632ebd068e03bfff
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

@@ -1,0 +1,273 @@
+[Version:1]
+Cog 
+{
+	var Name = "turret_single"
+	Transform 
+	{
+		var Translation = Real3{-2, 0, -1.5}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, 0, 0, 1}
+	}
+	Hierarchy 
+	{
+		Cog [Id:0x632ebd128749659d]
+		{
+			var Name = "turret_singleGeneratedMeshNode0"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0f8a78bfd6:turret_single_turret_singleGeneratedMeshNode0"
+			}
+		}
+		Cog [Id:0x632ebd12874965a4]
+		{
+			var Name = "turret_singleGeneratedMeshNode1"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0f8a78bff1:turret_single_turret_singleGeneratedMeshNode1"
+			}
+		}
+		Cog [Id:0x632ebd12874965a6]
+		{
+			var Name = "turret_singleGeneratedMeshNode2"
+			Transform 
+			{
+				var Translation = Real3{0, 0, 0}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Model 
+			{
+				var Visible = true
+				var ViewCulling = true
+				var VisibilityEvents = true
+				var OverrideBoundingBox = false
+				var LocalAabbCenter = Real3{0, 0, 0}
+				var LocalAabbHalfExtents = Real3{1, 1, 1}
+				var GroupSortValue = 0
+				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Mesh = "632ebd0f8a78c000:turret_single_turret_singleGeneratedMeshNode2"
+			}
+		}
+		Cog [Id:0x632ebd12874965a8]
+		{
+			var Name = "turret"
+			Transform 
+			{
+				var Translation = Real3{0, 0.349999994, 0.0111803403}
+				var Scale = Real3{1, 1, 1}
+				var Rotation = Quaternion{0, 0, 0, 1}
+			}
+			Hierarchy 
+			{
+				Cog [Id:0x632ebd12874965aa]
+				{
+					var Name = "turretGeneratedMeshNode3"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "583afb5e7bf75e18:PlasmaMaterial"
+						var Mesh = "632ebd0f8a78c016:turret_single_turretGeneratedMeshNode3"
+					}
+				}
+				Cog [Id:0x632ebd12874965ac]
+				{
+					var Name = "turretGeneratedMeshNode4"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "583afb5e7bf75e18:PlasmaMaterial"
+						var Mesh = "632ebd0f8a78c02e:turret_single_turretGeneratedMeshNode4"
+					}
+				}
+				Cog [Id:0x632ebd12874965ae]
+				{
+					var Name = "turretGeneratedMeshNode5"
+					Transform 
+					{
+						var Translation = Real3{0, 0, 0}
+						var Scale = Real3{1, 1, 1}
+						var Rotation = Quaternion{0, 0, 0, 1}
+					}
+					Model 
+					{
+						var Visible = true
+						var ViewCulling = true
+						var VisibilityEvents = true
+						var OverrideBoundingBox = false
+						var LocalAabbCenter = Real3{0, 0, 0}
+						var LocalAabbHalfExtents = Real3{1, 1, 1}
+						var GroupSortValue = 0
+						var Material = "583afb5e7bf75e18:PlasmaMaterial"
+						var Mesh = "632ebd0f8a78c045:turret_single_turretGeneratedMeshNode5"
+					}
+				}
+				Cog [Id:0x632ebd12874965b0]
+				{
+					var Name = "Group"
+					Transform 
+					{
+						var Translation = Real3{-0.0396446586, 0.197360709, 0.161180303}
+						var Scale = Real3{1, 0.99999994, 0.99999994}
+						var Rotation = Quaternion{0.707106829, 0, 0, 0.707106769}
+					}
+					Hierarchy 
+					{
+						Cog [Id:0x632ebd12874965b2]
+						{
+							var Name = "GroupGeneratedMeshNode6"
+							Transform 
+							{
+								var Translation = Real3{0, 0, 0}
+								var Scale = Real3{1, 1, 1}
+								var Rotation = Quaternion{0, 0, 0, 1}
+							}
+							Model 
+							{
+								var Visible = true
+								var ViewCulling = true
+								var VisibilityEvents = true
+								var OverrideBoundingBox = false
+								var LocalAabbCenter = Real3{0, 0, 0}
+								var LocalAabbHalfExtents = Real3{1, 1, 1}
+								var GroupSortValue = 0
+								var Material = "583afb5e7bf75e18:PlasmaMaterial"
+								var Mesh = "632ebd0f8a78c055:turret_single_GroupGeneratedMeshNode6"
+							}
+						}
+						Cog [Id:0x632ebd12874965b4]
+						{
+							var Name = "GroupGeneratedMeshNode7"
+							Transform 
+							{
+								var Translation = Real3{0, 0, 0}
+								var Scale = Real3{1, 1, 1}
+								var Rotation = Quaternion{0, 0, 0, 1}
+							}
+							Model 
+							{
+								var Visible = true
+								var ViewCulling = true
+								var VisibilityEvents = true
+								var OverrideBoundingBox = false
+								var LocalAabbCenter = Real3{0, 0, 0}
+								var LocalAabbHalfExtents = Real3{1, 1, 1}
+								var GroupSortValue = 0
+								var Material = "583afb5e7bf75e18:PlasmaMaterial"
+								var Mesh = "632ebd0f8a78c06a:turret_single_GroupGeneratedMeshNode7"
+							}
+						}
+					}
+				}
+				Cog [Id:0x632ebd12874965b5]
+				{
+					var Name = "Group8"
+					Transform 
+					{
+						var Translation = Real3{0.139644697, 0.197360709, 0.161180303}
+						var Scale = Real3{1, 0.99999994, 0.99999994}
+						var Rotation = Quaternion{0.707106829, 0, 0, 0.707106769}
+					}
+					Hierarchy 
+					{
+						Cog [Id:0x632ebd12874965b7]
+						{
+							var Name = "Group8GeneratedMeshNode9"
+							Transform 
+							{
+								var Translation = Real3{0, 0, 0}
+								var Scale = Real3{1, 1, 1}
+								var Rotation = Quaternion{0, 0, 0, 1}
+							}
+							Model 
+							{
+								var Visible = true
+								var ViewCulling = true
+								var VisibilityEvents = true
+								var OverrideBoundingBox = false
+								var LocalAabbCenter = Real3{0, 0, 0}
+								var LocalAabbHalfExtents = Real3{1, 1, 1}
+								var GroupSortValue = 0
+								var Material = "583afb5e7bf75e18:PlasmaMaterial"
+								var Mesh = "632ebd0f8a78c07a:turret_single_Group8GeneratedMeshNode9"
+							}
+						}
+						Cog [Id:0x632ebd12874965b9]
+						{
+							var Name = "Group8GeneratedMeshNode10"
+							Transform 
+							{
+								var Translation = Real3{0, 0, 0}
+								var Scale = Real3{1, 1, 1}
+								var Rotation = Quaternion{0, 0, 0, 1}
+							}
+							Model 
+							{
+								var Visible = true
+								var ViewCulling = true
+								var VisibilityEvents = true
+								var OverrideBoundingBox = false
+								var LocalAabbCenter = Real3{0, 0, 0}
+								var LocalAabbHalfExtents = Real3{1, 1, 1}
+								var GroupSortValue = 0
+								var Material = "583afb5e7bf75e18:PlasmaMaterial"
+								var Mesh = "632ebd0f8a78c089:turret_single_Group8GeneratedMeshNode10"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

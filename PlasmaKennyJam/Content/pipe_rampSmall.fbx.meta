@@ -1,0 +1,46 @@
+[Version:1]
+GeometryContent 
+{
+	GeometryImport 
+	{
+		var CollapsePivots = false
+		var OriginOffset = Real3{0, 0, 0}
+		var ScaleFactor = 0.100000001
+		var ChangeBasis = false
+		var XBasisTo = BasisType.PositiveX
+		var YBasisTo = BasisType.PositiveY
+		var ZBasisTo = BasisType.PositiveZ
+	}
+	MeshBuilder 
+	{
+		var GenerateSmoothNormals = false
+		var SmoothingAngleDegreesThreshold = 30
+		var GenerateTangentSpace = true
+		var TangentSmoothAngle = 30
+		var InvertUvYAxis = false
+		var FlipWindingOrder = false
+		var FlipNormals = false
+		var Meshes = Array
+		{
+			Object
+			{
+				var Name = "pipe_rampSmall_pipe_rampSmallGeneratedMeshNode0"
+				var ResourceId = 0x632ebd0d88ff05bc
+			}
+			Object
+			{
+				var Name = "pipe_rampSmall_pipe_rampSmallGeneratedMeshNode1"
+				var ResourceId = 0x632ebd0d88ff05d5
+			}
+			Object
+			{
+				var Name = "pipe_rampSmall_pipe_rampSmallGeneratedMeshNode2"
+				var ResourceId = 0x632ebd0d88ff05e5
+			}
+		}
+	}
+	GeneratedArchetype 
+	{
+		var ResourceId = 0x632ebd098e2c0821
+	}
+}
