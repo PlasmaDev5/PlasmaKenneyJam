@@ -1,0 +1,25 @@
+// MIT Licensed (see LICENSE.md).
+
+class MainMenu : LightningComponent
+{
+  [Property] var StarGame : CogPath;
+  [Property] var EndButton : CogPath;
+  
+  [Property] var FirstLevel : Level;
+  
+  function Initialize(init : CogInitializer)
+  {
+    Plasma.Connect(this.StarGame.Cog, Events.LeftMouseDown, this.BeginGame);
+    Plasma.Connect(this.EndButton.Cog, Events.LeftMouseDown, this.EndGame);
+  }
+
+  function BeginGame(event : ViewportMouseEvent)
+  {
+    this.Space.LoadLevel(this.FirstLevel);
+  }
+  
+  function EndGame(event : ViewportMouseEvent)
+  {
+    this.GameSession.Quit();
+  }
+}

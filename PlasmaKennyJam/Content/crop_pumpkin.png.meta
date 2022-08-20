@@ -3,22 +3,18 @@ ImageContent
 {
 	SpriteSourceBuilder 
 	{
-		var Name = "crops_cornStageD"
-		var ResourceId = 0x632f44cc002796d1
-		var FrameSizeX = 31
-		var FrameSizeY = 114
+		var Name = "crop_pumpkin"
+		var ResourceId = 0x632fdbb398e70200
+		var FrameSizeX = 41
+		var FrameSizeY = 30
 		var FrameCount = 1
 		var FrameDelay = 0.0833333358
-		var OriginX = 15
-		var OriginY = 57
+		var OriginX = 20
+		var OriginY = 15
 		var PixelsPerUnit = 64
 		var Sampling = SpriteSampling.Nearest
 		var Looping = true
 		var Slices = Real4{0, 0, 0, 0}
 		var Fill = SpriteFill.Stretch
-	}
-	ContentEditorOptions 
-	{
-		var ShowInEditor = true
 	}
 }

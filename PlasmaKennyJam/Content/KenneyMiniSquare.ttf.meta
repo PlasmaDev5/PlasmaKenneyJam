@@ -1,0 +1,9 @@
+[Version:1]
+FontContent 
+{
+	FontBuilder 
+	{
+		var Name = "KenneyMiniSquare"
+		var ResourceId = 0x632f4bf13f9efc62
+	}
+}

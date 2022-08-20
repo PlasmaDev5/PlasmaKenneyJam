@@ -1,10 +1,10 @@
 [Version:1]
 Cog 
 {
-	var Name = "Cube"
+	var Name = "Corn"
 	Transform 
 	{
-		var Translation = Real3{53.3284798, 2.64413929, 0.2213687}
+		var Translation = Real3{53.3284798, 0.496361941, 0.2213687}
 		var Scale = Real3{1, 1, 1}
 		var Rotation = Quaternion{0, 0, 0, 1}
 	}
@@ -21,7 +21,7 @@ Cog
 	{
 		var Visible = true
 		var VisibilityEvents = true
-		var Material = "56581e2bb81777be:DebugDrawOnTop"
+		var Material = "564a44b7f62c1d67:DebugDraw"
 		var SpriteSource = "58f8e4be736fa133:SelectIcon"
 		var ViewScale = 1
 		var OverrideSelections = true

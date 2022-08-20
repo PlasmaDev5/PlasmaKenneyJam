@@ -1,0 +1,20 @@
+[Version:1]
+ImageContent 
+{
+	SpriteSourceBuilder 
+	{
+		var Name = "crops_bambooStageB"
+		var ResourceId = 0x632fdbb398d3da4f
+		var FrameSizeX = 26
+		var FrameSizeY = 81
+		var FrameCount = 1
+		var FrameDelay = 0.0833333358
+		var OriginX = 13
+		var OriginY = 40
+		var PixelsPerUnit = 64
+		var Sampling = SpriteSampling.Linear
+		var Looping = true
+		var Slices = Real4{0, 0, 0, 0}
+		var Fill = SpriteFill.Stretch
+	}
+}
