@@ -1,0 +1,9 @@
+[Version:1]
+TextContent 
+{
+	LightningScriptBuilder 
+	{
+		var Name = "Carrot"
+		var ResourceId = 0x632f5308dd10f7d3
+	}
+}

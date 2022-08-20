@@ -1,0 +1,29 @@
+[Version:1]
+Cog 
+{
+	var Name = "Cube"
+	Transform 
+	{
+		var Translation = Real3{53.3284798, 2.64413929, 0.2213687}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, 0, 0, 1}
+	}
+	Corn 
+	{
+		var Stage1 = "62d0de8103871957:crops_cornStageA"
+		var Stage2 = "62d0de8103847e87:crops_cornStageB"
+		var Stage3 = "62d0de810385d35f:crops_cornStageC"
+		var Stage4 = "62d0de81038327bb:crops_cornStageD"
+		var GrowMin = 1
+		var GrowMax = 2
+	}
+	SelectionIcon 
+	{
+		var Visible = true
+		var VisibilityEvents = true
+		var Material = "56581e2bb81777be:DebugDrawOnTop"
+		var SpriteSource = "58f8e4be736fa133:SelectIcon"
+		var ViewScale = 1
+		var OverrideSelections = true
+	}
+}

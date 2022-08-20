@@ -1,0 +1,66 @@
+// MIT Licensed (see LICENSE.md).
+
+class Corn : LightningComponent
+{
+  [Property] 
+  var Stage1 : Archetype;
+  [Property] 
+  var Stage2 : Archetype;
+  [Property] 
+  var Stage3 : Archetype;
+  [Property] 
+  var Stage4 : Archetype;
+  
+  [Property]
+  var GrowMin : Real = 10.0;
+  
+  [Property]
+  var GrowMax : Real = 60.0;
+  
+  var Index = 0;
+  
+  var Cog : Cog;
+  var RandomGenerator : Random = Random();
+  
+  function Initialize(init : CogInitializer)
+  {
+    this.Cog = this.Space.CreateAtPosition(this.Stage1, this.Owner.Transform.Translation);
+    this.Index = 1;
+    
+    this.RandomGenerator = Random();
+    this.GrowCheck();
+
+    //Plasma.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+  }
+
+  function GrowCheck()
+  {
+    if(this.Index == 4)
+      return;
+    
+    var actionSequence = Actions.Sequence(this.Owner.Actions);
+    Actions.Delay(actionSequence, this.RandomGenerator.Range(this.GrowMin, this.GrowMax));
+    Actions.Call(actionSequence, this.Grow);
+    Actions.Call(actionSequence, this.GrowCheck);
+  }
+
+  function Grow()
+  {    
+    this.Cog.Destroy();
+    if(this.Index == 1)
+    {
+      this.Cog = this.Space.CreateAtPosition(this.Stage2, this.Owner.Transform.Translation);
+      this.Index = 2;
+    }
+    else if(this.Index == 2)
+    {
+      this.Cog = this.Space.CreateAtPosition(this.Stage3, this.Owner.Transform.Translation);
+      this.Index = 3;
+    }
+    else if(this.Index == 3)
+    {
+      this.Cog = this.Space.CreateAtPosition(this.Stage4, this.Owner.Transform.Translation);
+      this.Index = 4;
+    }
+  }
+}

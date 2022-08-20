@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "Corn"
+		var ResourceId = 0x632f5d92cf657563
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

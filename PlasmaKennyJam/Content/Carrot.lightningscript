@@ -1,0 +1,9 @@
+// MIT Licensed (see LICENSE.md).
+
+class Carrot : LightningComponent
+{
+  function Initialize(init : CogInitializer)
+  {
+    //Plasma.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+  }
+}
