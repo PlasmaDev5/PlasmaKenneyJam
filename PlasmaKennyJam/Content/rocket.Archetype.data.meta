@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "rocket"
+		var ResourceId = 0x632f49f3ec45fb87
+		var LoaderType = "Cog"
+		var Version = 0
+	}
+}

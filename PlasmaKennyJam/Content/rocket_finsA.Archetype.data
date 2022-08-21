@@ -4,7 +4,7 @@ Cog
 	var Name = "rocket_finsA"
 	Transform 
 	{
-		var Translation = Real3{-2, 0, -1.5}
+		var Translation = Real3{42.1939735, 0.5, 3.17298651}
 		var Scale = Real3{1, 1, 1}
 		var Rotation = Quaternion{0, 0, 0, 1}
 	}
@@ -28,7 +28,7 @@ Cog
 				var LocalAabbCenter = Real3{0, 0, 0}
 				var LocalAabbHalfExtents = Real3{1, 1, 1}
 				var GroupSortValue = 0
-				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Material = "632e473cd7d6482e:rocket1"
 				var Mesh = "632ebd0d8b0152fc:rocket_finsA_rocket_finsAGeneratedMeshNode0"
 			}
 		}
@@ -50,7 +50,7 @@ Cog
 				var LocalAabbCenter = Real3{0, 0, 0}
 				var LocalAabbHalfExtents = Real3{1, 1, 1}
 				var GroupSortValue = 0
-				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Material = "632e473cd7d6482e:rocket1"
 				var Mesh = "632ebd0d8b015314:rocket_finsA_rocket_finsAGeneratedMeshNode1"
 			}
 		}
@@ -72,7 +72,7 @@ Cog
 				var LocalAabbCenter = Real3{0, 0, 0}
 				var LocalAabbHalfExtents = Real3{1, 1, 1}
 				var GroupSortValue = 0
-				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Material = "632e46ac90068edd:rr"
 				var Mesh = "632ebd0d8b015324:rocket_finsA_rocket_finsAGeneratedMeshNode2"
 			}
 		}

@@ -131,9 +131,9 @@ Level
 		var Name = "EditorCamera"
 		Transform 
 		{
-			var Translation = Real3{58.7597427, 5.70265579, -4.65054226}
+			var Translation = Real3{42.7845268, 5.68219757, -4.40817165}
 			var Scale = Real3{1, 1, 1}
-			var Rotation = Quaternion{-0.118792936, 0.772213817, 0.151502386, 0.605492532}
+			var Rotation = Quaternion{-0.00556014944, 0.971485734, 0.235924572, 0.0228954647}
 		}
 		CameraViewport 
 		{
@@ -194,10 +194,10 @@ Level
 		{
 			var ControlMode = ControlMode.Orbit
 			var Previous3DMode = ControlMode.Orbit
-			var LookDistance = 10.535717
-			var VerticalAngle = 0.387463212
-			var HorizontalAngle = -1.81165254
-			var LookTarget = Real3{49.2866096, 1.72183084, -2.32371044}
+			var LookDistance = 10.5357122
+			var VerticalAngle = 0.476474643
+			var HorizontalAngle = -3.09446645
+			var LookTarget = Real3{42.343483, 0.850000143, 4.94365025}
 			var MoveSensitivity = 1
 			var InvertGamepadPitch = false
 			var GamepadMoveSensitivity = 0.100000001
@@ -757,7 +757,7 @@ Level
 		var Name = "PointLight"
 		Transform 
 		{
-			var Translation = Real3{49.2866096, 1.72183084, -2.32371044}
+			var Translation = Real3{44.22892, 1.20180666, 1.07625914}
 			var Scale = Real3{20, 20, 20}
 			var Rotation = Quaternion{0, -0.0911065713, 0, 0.995841146}
 		}
@@ -822,16 +822,48 @@ Level
 			var Rotation = Quaternion{0, 0, 0, 1}
 			var Scale = Real3{1, 1, 1}
 		}
-		Model 
-		{
-			var Material = "632ea837f5c8332c:ruvj"
-		}
 	}
 	Cog [InheritId:"632ebd098ecb81e3:rocks_smallA"][ContextId:37]
 	{
 		Transform 
 		{
 			var Translation = Real3{54.1705132, 0.5, -4.77078915}
+			var Rotation = Quaternion{0, 0, 0, 1}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [InheritId:"632ebd098ec871f1:rocks_smallB"][ContextId:38]
+	{
+		Transform 
+		{
+			var Translation = Real3{41.4948807, 0.5, -5.36380863}
+			var Rotation = Quaternion{0, 0, 0, 1}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [InheritId:"632ebd068e675075:alien"][ContextId:39]
+	{
+		Transform 
+		{
+			var Translation = Real3{43.3705826, 0.509270132, 0.412291467}
+			var Rotation = Quaternion{0, 0.603017032, 0, -0.7977283}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [InheritId:"632ebd098ec2c867:rocket_baseB"][ContextId:40]
+	{
+		Transform 
+		{
+			var Translation = Real3{41.472477, 0.5, 0.708445311}
+			var Rotation = Quaternion{0, 0, 0, 1}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
+	Cog [InheritId:"632f49f3ec45fb87:rocket"][ContextId:41]
+	{
+		Transform 
+		{
+			var Translation = Real3{36.4685173, 3.18316221, 2.54581523}
 			var Rotation = Quaternion{0, 0, 0, 1}
 			var Scale = Real3{1, 1, 1}
 		}

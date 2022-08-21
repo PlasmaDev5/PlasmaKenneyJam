@@ -118,7 +118,7 @@ Level
 		}
 		PostProcessDOF 
 		{
-			var Enable = true
+			var Enable = false
 			var BlurAmmount = 22
 			var BokehSize = 8
 			var BlurBokeh = BokehBlurStrength.Low
@@ -131,9 +131,9 @@ Level
 		var Name = "EditorCamera"
 		Transform 
 		{
-			var Translation = Real3{55.4813194, 4.82717705, -2.60505819}
+			var Translation = Real3{55.2957916, 7.69064283, -9.32024288}
 			var Scale = Real3{1, 1, 1}
-			var Rotation = Quaternion{-0.263284594, 0.654813647, 0.261906445, 0.658259273}
+			var Rotation = Quaternion{-0.0022944964, 0.975672603, 0.218982384, 0.0102230562}
 		}
 		CameraViewport 
 		{
@@ -194,9 +194,9 @@ Level
 		{
 			var ControlMode = ControlMode.Orbit
 			var Previous3DMode = ControlMode.Orbit
-			var LookDistance = 0.450491965
-			var VerticalAngle = 0.760962665
-			var HorizontalAngle = -1.56554818
+			var LookDistance = 7.4273572
+			var VerticalAngle = 0.441567451
+			var HorizontalAngle = -9.4038229
 			var LookTarget = Real3{55.1550903, 4.51650906, -2.60677028}
 			var MoveSensitivity = 1
 			var InvertGamepadPitch = false
@@ -430,37 +430,6 @@ Level
 	}
 	Cog [ContextId:7]
 	{
-		var Name = "Cube"
-		Transform 
-		{
-			var Translation = Real3{0, 0, 0}
-			var Scale = Real3{200, 1, 200}
-			var Rotation = Quaternion{0, 0, 0, 1}
-		}
-		Model 
-		{
-			var Visible = true
-			var ViewCulling = true
-			var VisibilityEvents = true
-			var OverrideBoundingBox = false
-			var LocalAabbCenter = Real3{0, 0, 0}
-			var LocalAabbHalfExtents = Real3{1, 1, 1}
-			var GroupSortValue = 0
-			var Material = "62d0dd89a4603512:Green"
-			var Mesh = "4de0354322b345ae:Cube"
-		}
-		BoxCollider 
-		{
-			var Ghost = false
-			var SendsEvents = true
-			var Material = "4de020863e872da8:DefaultPhysicsMaterial"
-			var CollisionGroup = "4e740859314e5515:DefaultGroup"
-			var Offset = Real3{0, 0, 0}
-			var HalfSize = Real3{0.5, 0.5, 0.5}
-		}
-	}
-	Cog [ContextId:8]
-	{
 		var Name = "Bounds"
 		Transform 
 		{
@@ -470,7 +439,7 @@ Level
 		}
 		Hierarchy 
 		{
-			Cog [Id:0x62d0dc3711f5af2a][ContextId:9]
+			Cog [Id:0x62d0dc3711f5af2a][ContextId:8]
 			{
 				var Name = "Cube"
 				Transform 
@@ -489,7 +458,7 @@ Level
 					var HalfSize = Real3{0.5, 0.5, 0.5}
 				}
 			}
-			Cog [Id:0x62d0dc62713c6fe8][ContextId:10]
+			Cog [Id:0x62d0dc62713c6fe8][ContextId:9]
 			{
 				var Name = "Cube"
 				Transform 
@@ -508,7 +477,7 @@ Level
 					var HalfSize = Real3{0.5, 0.5, 0.5}
 				}
 			}
-			Cog [Id:0x62d0dc7a7469e01c][ContextId:11]
+			Cog [Id:0x62d0dc7a7469e01c][ContextId:10]
 			{
 				var Name = "Cube"
 				Transform 
@@ -527,7 +496,7 @@ Level
 					var HalfSize = Real3{0.5, 0.5, 0.5}
 				}
 			}
-			Cog [Id:0x62d0dc4641973d8b][ContextId:12]
+			Cog [Id:0x62d0dc4641973d8b][ContextId:11]
 			{
 				var Name = "Cube"
 				Transform 
@@ -548,190 +517,48 @@ Level
 			}
 		}
 	}
+	Cog [InheritId:"632f49f3ec45fb87:rocket"][ContextId:12]
+	{
+		Transform 
+		{
+			var Translation = Real3{52.1110611, 2.50409675, 0.824857891}
+			var Rotation = Quaternion{0, 0, 0, 1}
+			var Scale = Real3{1, 1, 1}
+		}
+	}
 	Cog [ContextId:13]
 	{
-		var Name = "Crop_Leafs"
+		var Name = "HeightMap"
 		Transform 
 		{
-			var Translation = Real3{46.8471184, 0.5, -1.21800637}
+			var Translation = Real3{0, 0, 0}
 			var Scale = Real3{1, 1, 1}
 			var Rotation = Quaternion{0, 0, 0, 1}
 		}
-		Hierarchy 
+		HeightMap 
 		{
-			Cog [Id:0x62d0dfb39194859a][InheritId:"62d0de810399ddc5:crops_leafsStageA"][ContextId:14]
-			{
-				Transform 
-				{
-					var Translation = Real3{0, 0, -0.75}
-					var Rotation = Quaternion{0, 0, 0, 1}
-					var Scale = Real3{1, 1, 1}
-				}
-			}
-			Cog [Id:0x62d0dfb39194861b][InheritId:"62d0de81039733da:crops_leafsStageB"][ContextId:15]
-			{
-				Transform 
-				{
-					var Translation = Real3{0, 0, 2.38418579e-07}
-					var Rotation = Quaternion{0, 0, 0, 1}
-					var Scale = Real3{1, 1, 1}
-				}
-			}
+			var UnitsPerPatch = 32
+			var Source = "632f4be1ca7161cf:Planet1_HeightMap01"
 		}
-	}
-	Cog [InheritId:"62d0de810391edee:crop_pumpkin"][ContextId:16]
-	{
-		Transform 
+		HeightMapModel 
 		{
-			var Translation = Real3{46.8471184, 0.5, -3.96800613}
-			var Rotation = Quaternion{0, 0, 0, 1}
-			var Scale = Real3{1, 1, 1}
+			var Visible = true
+			var ViewCulling = true
+			var VisibilityEvents = true
+			var OverrideBoundingBox = false
+			var LocalAabbCenter = Real3{0, 0, 0}
+			var LocalAabbHalfExtents = Real3{1, 1, 1}
+			var GroupSortValue = 0
+			var Material = "57bb74a7debfd486:DefaultHeightMapMaterial"
 		}
-	}
-	Cog [ContextId:17]
-	{
-		var Name = "Crop_Bamboo"
-		Transform 
+		HeightMapCollider 
 		{
-			var Translation = Real3{46.8471184, 0.5, 6.90699387}
-			var Scale = Real3{1, 1, 1}
-			var Rotation = Quaternion{0, 0, 0, 1}
-		}
-		Hierarchy 
-		{
-			Cog [Id:0x62d0dfdac4ae92c7][InheritId:"62d0de810389a172:crops_bambooStageB"][ContextId:18]
-			{
-				Transform 
-				{
-					var Translation = Real3{0, 0, 0.375}
-					var Rotation = Quaternion{0, 0, 0, 1}
-					var Scale = Real3{1, 1, 1}
-				}
-				Model 
-				{
-					var Material = "62d0df342d1f30eb:Bamboo"
-				}
-			}
-			Cog [Id:0x62d0dfdac4ae937c][InheritId:"62d0de81038bf0b7:crops_bambooStageA"][ContextId:19]
-			{
-				Transform 
-				{
-					var Translation = Real3{0, 0, -0.375}
-					var Rotation = Quaternion{0, 0, 0, 1}
-					var Scale = Real3{1, 1, 1}
-				}
-				Model 
-				{
-					var Material = "62d0df342d1f30eb:Bamboo"
-				}
-			}
-		}
-	}
-	Cog [ContextId:20]
-	{
-		var Name = "Crop_Corn"
-		Transform 
-		{
-			var Translation = Real3{46.8471184, 0.5, 1.40942764}
-			var Scale = Real3{1, 1, 1}
-			var Rotation = Quaternion{0, 0, 0, 1}
-		}
-		Hierarchy 
-		{
-			Cog [Id:0x62d0df58124b00d3][InheritId:"62d0de8103871957:crops_cornStageA"][ContextId:21]
-			{
-				Transform 
-				{
-					var Translation = Real3{0, 0, -1.12743378}
-					var Rotation = Quaternion{0, 0, 0, 1}
-					var Scale = Real3{1, 1, 1}
-				}
-			}
-			Cog [Id:0x62d0df58124b0181][InheritId:"62d0de8103847e87:crops_cornStageB"][ContextId:22]
-			{
-				Transform 
-				{
-					var Translation = Real3{0, 0, -0.367698431}
-					var Rotation = Quaternion{0, 0, 0, 1}
-					var Scale = Real3{1, 1, 1}
-				}
-			}
-			Cog [Id:0x62d0df58124b020f][InheritId:"62d0de810385d35f:crops_cornStageC"][ContextId:23]
-			{
-				Transform 
-				{
-					var Translation = Real3{0, 0, 0.372566223}
-					var Rotation = Quaternion{0, 0, 0, 1}
-					var Scale = Real3{1, 1, 1}
-				}
-			}
-			Cog [Id:0x62d0df58124b0370][InheritId:"62d0de81038327bb:crops_cornStageD"][ContextId:24]
-			{
-				Transform 
-				{
-					var Translation = Real3{0, 0, 1.12256622}
-					var Rotation = Quaternion{0, 0, 0, 1}
-					var Scale = Real3{1, 1, 1}
-				}
-			}
-		}
-	}
-	Cog [InheritId:"62d0de8103af53f8:crop_turnip"][ContextId:25]
-	{
-		Transform 
-		{
-			var Translation = Real3{46.8471184, 0.5, -7.71800613}
-			var Rotation = Quaternion{0, 0, 0, 1}
-			var Scale = Real3{1, 1, 1}
-		}
-	}
-	Cog [InheritId:"62d0de8103934ba3:crop_carrot"][ContextId:26]
-	{
-		Transform 
-		{
-			var Translation = Real3{46.8471184, 0.5, -8.71800613}
-			var Rotation = Quaternion{0, 0, 0, 1}
-			var Scale = Real3{1, 1, 1}
-		}
-	}
-	Cog [ContextId:27]
-	{
-		var Name = "Crop_wheet"
-		Transform 
-		{
-			var Translation = Real3{44.0971184, 0.5, -6.09300613}
-			var Scale = Real3{1, 1, 1}
-			var Rotation = Quaternion{0, 0, 0, 1}
-		}
-		Hierarchy 
-		{
-			Cog [Id:0x62d0c49e9690c906][InheritId:"62d0de810395ef7b:crops_wheatStageB"][ContextId:28]
-			{
-				Transform 
-				{
-					var Translation = Real3{0, 0, 0.375}
-					var Rotation = Quaternion{0, 0, 0, 1}
-					var Scale = Real3{1, 1, 1}
-				}
-			}
-			Cog [Id:0x62d0c49e9690c9ac][InheritId:"62d0de8103948627:crops_wheatStageA"][ContextId:29]
-			{
-				Transform 
-				{
-					var Translation = Real3{0, 0, -0.375}
-					var Rotation = Quaternion{0, 0, 0, 1}
-					var Scale = Real3{1, 1, 1}
-				}
-			}
-		}
-	}
-	Cog [InheritId:"62d0de810390a041:crop_melon"][ContextId:30]
-	{
-		Transform 
-		{
-			var Translation = Real3{44.0971184, 0.5, -4.21800613}
-			var Rotation = Quaternion{0, 0, 0, 1}
-			var Scale = Real3{1, 1, 1}
+			var Ghost = false
+			var SendsEvents = true
+			var Material = "4de020863e872da8:DefaultPhysicsMaterial"
+			var CollisionGroup = "4e740859314e5515:DefaultGroup"
+			var Offset = Real3{0, 0, 0}
+			var Thickness = 1
 		}
 	}
 }

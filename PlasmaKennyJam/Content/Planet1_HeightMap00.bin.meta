@@ -1,0 +1,13 @@
+[Version:1]
+BinaryContent 
+{
+	BinaryBuilder 
+	{
+		var Name = "Planet1_HeightMap00"
+		var ResourceId = 0x632f485315b85a2c
+		var LoaderType = "HeightMapSource"
+		var Version = 0
+		var FilterTag = ""
+		var ResourceOwner = "632f6e7e64d45876:Planet1"
+	}
+}

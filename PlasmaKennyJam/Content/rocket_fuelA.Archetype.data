@@ -4,7 +4,7 @@ Cog
 	var Name = "rocket_fuelA"
 	Transform 
 	{
-		var Translation = Real3{-2, 0, -1.5}
+		var Translation = Real3{41.437603, 0.372895002, 6.56980562}
 		var Scale = Real3{1, 1, 1}
 		var Rotation = Quaternion{0, 0, 0, 1}
 	}
@@ -28,7 +28,7 @@ Cog
 				var LocalAabbCenter = Real3{0, 0, 0}
 				var LocalAabbHalfExtents = Real3{1, 1, 1}
 				var GroupSortValue = 0
-				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Material = "632e473cd7d6482e:rocket1"
 				var Mesh = "632ebd0c8b17c203:rocket_fuelA_rocket_fuelAGeneratedMeshNode0"
 			}
 		}
@@ -50,7 +50,7 @@ Cog
 				var LocalAabbCenter = Real3{0, 0, 0}
 				var LocalAabbHalfExtents = Real3{1, 1, 1}
 				var GroupSortValue = 0
-				var Material = "583afb5e7bf75e18:PlasmaMaterial"
+				var Material = "632e473cd7d6482e:rocket1"
 				var Mesh = "632ebd0c8b17c21a:rocket_fuelA_rocket_fuelAGeneratedMeshNode1"
 			}
 		}

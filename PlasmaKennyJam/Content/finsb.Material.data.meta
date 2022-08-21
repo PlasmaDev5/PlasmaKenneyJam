@@ -1,0 +1,11 @@
+[Version:1]
+DataContent 
+{
+	DataBuilder 
+	{
+		var Name = "finsb"
+		var ResourceId = 0x632e78540130829d
+		var LoaderType = "Material"
+		var Version = 0
+	}
+}

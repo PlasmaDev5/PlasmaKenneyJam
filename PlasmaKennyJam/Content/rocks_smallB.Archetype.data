@@ -4,7 +4,7 @@ Cog
 	var Name = "rocks_smallB"
 	Transform 
 	{
-		var Translation = Real3{-2, 0, -1.5}
+		var Translation = Real3{53.7373314, 0.5, -6.04267025}
 		var Scale = Real3{1, 1, 1}
 		var Rotation = Quaternion{0, 0, 0, 1}
 	}
@@ -17,7 +17,7 @@ Cog
 		var LocalAabbCenter = Real3{0, 0, 0}
 		var LocalAabbHalfExtents = Real3{1, 1, 1}
 		var GroupSortValue = 0
-		var Material = "583afb5e7bf75e18:PlasmaMaterial"
+		var Material = "632ea837f5c8332c:ruvj"
 		var Mesh = "632ebd0c8b28127b:rocks_smallB"
 	}
 }

@@ -1,0 +1,59 @@
+[Version:1]
+Cog 
+{
+	var Name = "rocket"
+	Transform 
+	{
+		var Translation = Real3{52.1110611, 2.50409675, 0.824857891}
+		var Scale = Real3{1, 1, 1}
+		var Rotation = Quaternion{0, 0, 0, 1}
+	}
+	Hierarchy 
+	{
+		Cog [Id:0x632f56223caf884e][InheritId:"632ebd098ec3dde4:rocket_finsA"]
+		{
+			Transform 
+			{
+				var Translation = Real3{8.39233398e-05, -0.984865904, 0.00421500206}
+				var Rotation = Quaternion{0, 0, 0, 1}
+				var Scale = Real3{1, 1, 1}
+			}
+		}
+		Cog [Id:0x632f56223caf89f4][InheritId:"632ebd098ec0ca25:rocket_finsB"]
+		{
+			Transform 
+			{
+				var Translation = Real3{-0.00203704834, -0.307120323, 0.00141406059}
+				var Rotation = Quaternion{0, 0, 0, 1}
+				var Scale = Real3{1, 1, 1}
+			}
+		}
+		Cog [Id:0x632f56223caf8b30][InheritId:"632ebd098ec1bab4:rocket_fuelA"]
+		{
+			Transform 
+			{
+				var Translation = Real3{-0.00356674194, 0.394332886, -0.000945329666}
+				var Rotation = Quaternion{0, 0, 0, 1}
+				var Scale = Real3{1, 1, 1}
+			}
+		}
+		Cog [Id:0x632f56223caf8ccf][InheritId:"632ebd098ecd9a78:rocket_topA"]
+		{
+			Transform 
+			{
+				var Translation = Real3{0.00551605225, 0.897652864, -0.00468444824}
+				var Rotation = Quaternion{0, 0, 0, 1}
+				var Scale = Real3{1, 1, 1}
+			}
+		}
+		Cog [Id:0x632f560b05a98998][InheritId:"632ebd098ec5df98:rocket_baseA"]
+		{
+			Transform 
+			{
+				var Translation = Real3{0.00436019897, -1.98160315, 0.00496196747}
+				var Rotation = Quaternion{0, 0, 0, 1}
+				var Scale = Real3{1, 1, 1}
+			}
+		}
+	}
+}
